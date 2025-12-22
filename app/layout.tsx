@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import "./globals.css";
-import CookieBanner from "/app/components/CookieBanner.tsx"; // Hier importieren!
 
 export const metadata: Metadata = {
   title: "Create Next App",
