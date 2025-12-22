@@ -8,7 +8,7 @@ export default function ContactPage() {
       <br />
       <br />
       <Image
-        src="/DSC_0907.jpg"
+        src={(process.env.PAGES_BASE_PATH || "") + "/DSC_0907.jpg"}
         alt="Madero"
         width={700}
         height={700}

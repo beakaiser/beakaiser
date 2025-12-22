@@ -46,7 +46,7 @@ export default function ContactPage() {
           <div className="text-lg font-semibold mb-4">ab 20 € | 20 Minuten</div>
           <br /> <br /> <br />
           <Image
-            src="/IMG_3764.jpg"
+            src={(process.env.PAGES_BASE_PATH || "") + "/IMG_3764.jpg"}
             alt="Madero"
             width={700}
             height={700}

@@ -53,7 +53,7 @@ export default function ContactPage() {
       </div>{" "}
       <br />{" "}
       <Image
-        src="/IMG_3347.jpg"
+        src={(process.env.PAGES_BASE_PATH || "") + "/IMG_3347.jpg"}
         alt="Madero"
         width={1290}
         height={1065}
