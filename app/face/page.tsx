@@ -70,7 +70,7 @@ export default function ContactPage() {
         </div>
       </div>
       <Image
-        src="/DSC_0902.jpg"
+        src={(process.env.PAGES_BASE_PATH || "") + "/DSC_0902.jpg"}
         alt="Madero"
         width={700}
         height={700}
@@ -141,7 +141,7 @@ export default function ContactPage() {
       <br />
       <br />
       <Image
-        src="/DSC_0892.jpg"
+        src={(process.env.PAGES_BASE_PATH || "") + "/DSC_0892.jpg"}
         alt="Madero"
         width={700}
         height={700}
