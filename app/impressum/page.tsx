@@ -55,12 +55,26 @@ export default function ImpressumPage() {
               Haftungsausschluss
             </h2>
             <p className="text-gray-700 text-sm">
-              Die Inhalte dieser Website dienen ausschließlich der allgemeinen
-              Information. Trotz sorgfältiger inhaltlicher Kontrolle übernehmen
-              wir keine Haftung für die Vollständigkeit, Richtigkeit oder
-              Aktualität der bereitgestellten Informationen. Externe Links
-              führen zu Diensten wie cal.com – dort gelten deren
-              Nutzungsbedingungen.
+              Die Inhalte dieser Website dienen der allgemeinen Information und
+              wurden sorgfältig erstellt. Trotzdem können wir keine Gewähr für
+              Vollständigkeit, Richtigkeit oder Aktualität übernehmen. Als
+              Diensteanbieter sind wir nach § 7 TMG für eigene Inhalte
+              verantwortlich, übernehmen aber keine Haftung für externe Links
+              oder Dienste (z.B. cal.com). Bei Rechtsverletzungen werden wir
+              Inhalte sofort entfernen. Haftungsansprüche sind ausgeschlossen,
+              es sei denn, es liegt Vorsatz oder grobe Fahrlässigkeit vor.
+              <br />
+              <br />
+              Datenschutz-Hinweis: Für Terminbuchungen nutzen wir cal.com. Bitte
+              beachten Sie die Datenschutzbestimmungen von cal.com:
+              https://cal.com/de/privacy. Im Rahmen der Terminbuchung über
+              cal.com erhalten wir Ihre Kontaktdaten (Name, E-Mail-Adresse) und
+              Termininformationen. Diese Daten werden ausschließlich für die
+              Terminverwaltung und zur Kontaktaufnahme im Rahmen Ihrer Buchung
+              genutzt. Eine Weitergabe an Dritte erfolgt nicht. Nach Ablauf der
+              gesetzlichen Aufbewahrungsfristen werden die Daten gelöscht. Für
+              weitere Fragen zum Datenschutz stehen wir Ihnen gerne zur
+              Verfügung.
             </p>
           </section>
 
@@ -107,6 +121,8 @@ export default function ImpressumPage() {
               cal.com
             </a>
             . Für die Verarbeitung Ihrer Daten gilt deren Datenschutzerklärung.
+            Die Datenverarbeitung erfolgt auf Basis von Art. 6 Abs. 1 lit. b
+            DSGVO (Vertragsabwicklung).
           </p>
         </div>
 
