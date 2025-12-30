@@ -42,7 +42,7 @@ export default function ContactPage() {
               </div>
               <a
                 href="/buchung"
-                className="bg-orange-500 text-blue-900 px-6 py-3 rounded-lg hover:bg-orange-600"
+                className="bg-fuchsia-200 text-gray-900 px-6 py-3 rounded-lg hover:bg-pink-300"
               >
                 Jetzt buchen
               </a>
@@ -61,7 +61,7 @@ export default function ContactPage() {
               </div>
               <a
                 href="/buchung"
-                className="bg-orange-500 text-shadow-blue-950hite px-6 py-3 rounded-lg hover:bg-orange-600"
+                className="bg-fuchsia-200 text-shadow-blue-950hite px-6 py-3 rounded-lg hover:bg-pink-300"
               >
                 Jetzt buchen
               </a>
@@ -106,7 +106,7 @@ export default function ContactPage() {
             <div className="text-xl font-bold mb-6">70 € | 60 Minuten</div>
             <a
               href="/buchung"
-              className="bg-emerald-500 text-blue-950 px-8 py-4 rounded-lg hover:bg-emerald-600"
+              className="bg-blue-200 text-blue-950 px-8 py-4 rounded-lg hover:bg-blue-100"
             >
               Buchen
             </a>
@@ -152,7 +152,7 @@ export default function ContactPage() {
       <br />
       <div className="bg-blue-100 py-16 text-gray-700">
         <div className="container mx-auto px-4 md:px-12 text-center">
-          <h1 className="text-5xl font-bold uppercase mb-8">
+          <h1 className="text-4xl font-bold uppercase mb-8">
             Purifying Facials
           </h1>
 
@@ -196,7 +196,7 @@ export default function ContactPage() {
         {/* CTA-Button */}
         <a
           href="/buchung"
-          className="bg-blue-400 text-center text-blue-950 px-12 py-4 rounded-3xl hover:bg-blue-600 transition"
+          className="bg-red-300 text-center text-blue-950 px-12 py-4 rounded-3xl hover:bg-fuchsia-200 transition"
         >
           Termin sichern
         </a>

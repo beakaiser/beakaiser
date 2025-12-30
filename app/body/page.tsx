@@ -55,11 +55,11 @@ export default function ContactPage() {
           <br /> <br />
         </div>
         {/* CTA-Button in hellerem Rahmen */}
-        <div className="bg-gray-200 w-full h-80 p-8 border-2 border-gray-400 flex items-center justify-center">
-          <div className="bg-white p-4 border border-gray-300 rounded-lg">
+        <div className="bg-indigo-200 w-full h-8 p-8 border-2 border-indigo-300 flex items-center justify-center">
+          <div className=" border-indigo-200 rounded-lg">
             <a
               href="/buchung"
-              className="bg-orange-500 text-shadow-blue-950 px-8 py-4 rounded-lg hover:bg-orange-600"
+              className="bg-indigo-200 text-gray-900 px-8 py-4 rounded-lg hover:bg-gray-200"
             >
               Termin buchen
             </a>

@@ -10,9 +10,9 @@ export default function ContactPage() {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
         {/* Linke Seite: Text */}
         <div className="space-y-6">
-          <p className="text-lg text-amber-950">
+          <p className="text-lg text-gray-800">
             Wir sind Teil von{" "}
-            <span className="font-medium text-amber-950">Longvity</span> – einem
+            <span className="font-medium text-gray-800">Longvity</span> – einem
             Netzwerk für nachhaltige Gesundheit und Lebensqualität. <br />
           </p>{" "}
           <br /> <br />
@@ -28,7 +28,7 @@ export default function ContactPage() {
                 <strong>Email:</strong>{" "}
                 <a
                   href="mailto:beacosberlin@gmail.com"
-                  className="text-blue-600 hover:underline"
+                  className="text-gray-800 hover:underline"
                 >
                   beacosberlin@gmail.com
                 </a>
@@ -60,16 +60,16 @@ export default function ContactPage() {
         className=" w-2/3 object-cover mx-auto"
       />
       {/* Call-to-Action: Termin buchen */}
-      <div className="bg-gradient-to-r from-blue-900 to-blue-800 text-center text-gray-800 rounded-xl p-8 shadow-lg">
+      <div className="bg-gradient-to-r from-emerald-300 to-red-200 text-center text-gray-800 rounded-xl p-8 shadow-lg">
         <h2 className="text-2xl font-semibold mb-3 text-white">
           Buchen Sie Ihren Termin
         </h2>
-        <p className="text-lg text-blue-100 mb-6 max-w-lg mx-auto">
+        <p className="text-lg text-gray-500 mb-6 max-w-lg mx-auto">
           jetzt per Klick – finden Sie einen Zeitpunkt, der zu Ihnen passt.
         </p>
         <a
           href="/buchung"
-          className="inline-block bg-white text-blue-900 px-8 py-4 rounded-lg text-lg font-medium hover:bg-gray-100 transition-all duration-200 shadow-md hover:shadow-xl transform hover:-translate-y-1"
+          className="inline-block bg-white text-gray-700 px-8 py-4 rounded-lg text-lg font-medium hover:bg-gray-100 transition-all duration-200 shadow-md hover:shadow-xl transform hover:-translate-y-1"
         >
           Jetzt Termin buchen
         </a>

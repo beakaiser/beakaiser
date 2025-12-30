@@ -7,9 +7,9 @@ export default function ImpressumPage() {
         <p className="text-gray-700 mb-6">
           Gemäß § 5 TMG (Telemediengesetz) informieren wir Sie hier über die
           verantwortliche Stelle für diese Website. Angaben gemäß § 5 TMG:
-          Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV: Sabine Kaiser,
-          Heilpraktikerin Geiserichstraße 3, 12105 Berlin Telefon: 030/7537100
-          E-Mail: beacosberlin@gmail.com
+          Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV: Sabine Kaiser
+          UST- ID: DE 243281582 Heilpraktikerin Geiserichstraße 3, 12105 Berlin
+          Telefon: 030/7537100 E-Mail: beacosberlin@gmail.com
         </p>
 
         {/* Hauptinhalte */}
@@ -116,7 +116,7 @@ export default function ImpressumPage() {
             href="https://cal.com/bea-kaiser-xp4fzo"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex-1 bg-blue-600 text-white text-center px-6 py-3 rounded hover:bg-blue-700 transition"
+            className="flex-1 bg-red-300 text-white text-center px-6 py-3 rounded hover:bg-blue-700 transition"
           >
             Weiter zu cal.com – Termin buchen
           </a>
