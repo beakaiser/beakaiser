@@ -4,8 +4,8 @@ export default function ContactPage() {
   return (
     <div className="flex flex-col items-center">
       {/* Kopfabschnitt (heller Grauton) */}
-      <div className="bg-gray-100 w-full py-8">
-        <div className="bg-white w-full h-full p-8 border-4 border-gray-300 items-center">
+      <div className=" bg-gradient-to-r from-blue-50 to-fuchsia-100 w-full py-8">
+        <div className="bg-gradient-to-r from-fuchsia-100 to-blue-200 w-full h-full p-8 border-4 border-gray-100 items-center">
           <div className="text-3xl text-gray-600 font-bold text-center">
             DIVINE BODY TREATMENT
           </div>
@@ -45,21 +45,14 @@ export default function ContactPage() {
           </p>
           <div className="text-lg font-semibold mb-4">ab 20 € | 20 Minuten</div>
           <br /> <br /> <br />
-          <Image
-            src={(process.env.PAGES_BASE_PATH || "") + "/IMG_3764.jpg"}
-            alt="Madero"
-            width={700}
-            height={700}
-            className=" w-2/3 object-cover mx-auto"
-          />
           <br /> <br />
         </div>
         {/* CTA-Button in hellerem Rahmen */}
-        <div className="bg-indigo-200 w-full h-8 p-8 border-2 border-indigo-300 flex items-center justify-center">
+        <div className="bg-gradient-to-r from-fuchsia-100 to-blue-200 w-full h-8 p-8 border-2 border-indigo-300 rounded-lg flex items-center justify-center">
           <div className=" border-indigo-200 rounded-lg">
             <a
               href="/buchung"
-              className="bg-indigo-200 text-gray-900 px-8 py-4 rounded-lg hover:bg-gray-200"
+              className="bg-blue-200 text-gray-900 px-8 py-4 rounded-4xl hover:bg-fuchsia-100"
             >
               Termin buchen
             </a>

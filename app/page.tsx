@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+
 const Navbar = () => {
   const navs = ["Home", "FACE", "BODY", "Contact"];
 
@@ -166,6 +167,10 @@ const Hero9 = () => {
   );
 };
 
+import React from "react";
+// Deine Hero-Imports...
+import CookieBanner from "./components/CookieBanner"; // Pfad eventuell anpassen
+
 const App = () => {
   return (
     <div>
@@ -173,6 +178,7 @@ const App = () => {
       <Hero10 />
       <Hero3 /> <Hero4 />
       <Hero9 />
+      <CookieBanner />
     </div>
   );
 };

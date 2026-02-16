@@ -7,19 +7,10 @@ export default function ContactPage() {
       <br />
       <br />
       <br />
-      <Image
-        src={(process.env.PAGES_BASE_PATH || "") + "/DSC_0907.jpg"}
-        alt="Madero"
-        width={700}
-        height={700}
-        className=" w-2/3 object-cover mx-auto"
-      />
       <br /> <br />
-      <div className="bg-gray-50 py-12 px-6 md:px-12 text-gray-700">
+      <div className="bg-gradient-to-r from-fuchsia-100 to-indigo-100 py-12 px-6 md:px-12 text-gray-700">
         <div className="max-w-3xl mx-auto text-center space-y-8">
-          <h2 className="text-3xl font-bold uppercase mb-4">
-            Rejuvinating Facials
-          </h2>
+          <h2 className="text-3xl font-bold uppercase mb-4">Rejuvinate</h2>
           <p className="text-lg leading-relaxed mb-8">
             Entdecken Sie unsere traditionellen chinesischen
             Gesichtsbehandlungen, die Ihre Haut mit zellerneuernder Pflege und
@@ -69,21 +60,14 @@ export default function ContactPage() {
           </div>
         </div>
       </div>
-      <Image
-        src={(process.env.PAGES_BASE_PATH || "") + "/DSC_0902.jpg"}
-        alt="Madero"
-        width={700}
-        height={700}
-        className=" w-2/3 object-cover mx-auto"
-      />
       <br />
       <br />
       <br />
       <br />
       <br />
-      <div className="bg-gray-100 py-12 md:py-16 text-gray-600">
+      <div className=" bg-gradient-to-r from-emerald-100 to-blue-200 py-12 md:py-16 text-gray-600">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-4xl font-bold mb-8">Relaxing Facials</h2>
+          <h2 className="text-4xl font-bold mb-8">Relax</h2>
 
           {/* Beschreibung */}
           <p className="text-xl leading-relaxed mb-12 px-4 md:px-0">
@@ -106,7 +90,7 @@ export default function ContactPage() {
             <div className="text-xl font-bold mb-6">70 € | 60 Minuten</div>
             <a
               href="/buchung"
-              className="bg-blue-200 text-blue-950 px-8 py-4 rounded-lg hover:bg-blue-100"
+              className="bg-gray-300 text-gray-700 px-8 py-4 rounded-lg hover:bg-blue-100"
             >
               Buchen
             </a>
@@ -140,29 +124,18 @@ export default function ContactPage() {
       </div>
       <br />
       <br />
-      <Image
-        src={(process.env.PAGES_BASE_PATH || "") + "/DSC_0892.jpg"}
-        alt="Madero"
-        width={700}
-        height={700}
-        className=" w-2/3 object-cover mx-auto"
-      />
       <br />
       <br />
       <br />
-      <div className="bg-blue-100 py-16 text-gray-700">
+      <div className="bg-gradient-to-r from-blue-50 to-blue-200 py-16 text-gray-700">
         <div className="container mx-auto px-4 md:px-12 text-center">
-          <h1 className="text-4xl font-bold uppercase mb-8">
-            Purifying Facials
-          </h1>
-
+          <h1 className="text-4xl font-bold uppercase mb-8">Purify</h1>
           {/* Beschreibung */}
           <p className="text-2xl leading-relaxed mb-12 max-w-4xl mx-auto">
             Tiefe Reinigung für strahlende Haut: Individuelle Hautanalyse,
             sanftes Peeling, professionelle Porenreinigung und passgenaue Maske.
             Ideal bei unreiner Haut oder Akne.
           </p>
-
           {/* Preise */}
           <div className="flex flex-col md:flex-row justify-center gap-8 mb-12">
             <div className="bg-white shadow-sm p-8 rounded-3xl md:w-1/2">
@@ -200,7 +173,28 @@ export default function ContactPage() {
         >
           Termin sichern
         </a>
-      </div>
+      </div>{" "}
+      <Image
+        src={(process.env.PAGES_BASE_PATH || "") + "/DSC_0892.jpg"}
+        alt="Madero"
+        width={700}
+        height={700}
+        className=" w-2/3 object-cover mx-auto"
+      />
+      <Image
+        src={(process.env.PAGES_BASE_PATH || "") + "/DSC_0907.jpg"}
+        alt="Madero"
+        width={700}
+        height={700}
+        className=" w-2/3 object-cover mx-auto"
+      />
+      <Image
+        src={(process.env.PAGES_BASE_PATH || "") + "/DSC_0902.jpg"}
+        alt="Madero"
+        width={700}
+        height={700}
+        className=" w-2/3 object-cover mx-auto"
+      />
     </div>
   );
 }
