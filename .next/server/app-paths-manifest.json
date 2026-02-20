@@ -1,8 +1,0 @@
-{
-  "/body/page": "app/body/page.js",
-  "/buchung/page": "app/buchung/page.js",
-  "/contact/page": "app/contact/page.js",
-  "/datenschutz/page": "app/datenschutz/page.js",
-  "/face/page": "app/face/page.js",
-  "/page": "app/page.js"
-}
