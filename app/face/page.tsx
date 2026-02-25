@@ -12,9 +12,9 @@ export default function ContactPage() {
         <div className="max-w-3xl mx-auto text-center space-y-8">
           <h2 className="text-3xl font-bold uppercase mb-4">Rejuvinate</h2>
           <p className="text-lg leading-relaxed mb-8">
-            Entdecken Sie unsere traditionellen chinesischen
-            Gesichtsbehandlungen, die Ihre Haut mit zellerneuernder Pflege und
-            alten Heiltechniken verwöhnen.
+            Entdecken Sie unsere innovativen chinesischen Gesichtsbehandlungen,
+            die Ihre Haut mit passgenauer Pflege und traditionellen
+            Heiltechniken verwöhnen.
           </p>
 
           <div className="flex flex-col md:flex-row justify-center gap-8">
@@ -25,7 +25,7 @@ export default function ContactPage() {
               </h3>
               <p className="text-base mb-6">
                 Eine einzigartige Massage mit Schönheitswerkzeugen, die den
-                Qi-Fluss harmonisiert und Ihre Haut strahlen lässt. Inkl.
+                Qi-Fluss harmonisiert und Ihre Haut strahlen lässt. Inklusive
                 Reinigung und zellerneuernder Pflege.
               </p>
               <div className="text-lg font-semibold mb-4">
@@ -37,6 +37,14 @@ export default function ContactPage() {
               >
                 Jetzt buchen
               </a>
+
+              <Image
+                src={(process.env.PAGES_BASE_PATH || "") + "/DSC_0907.jpg"}
+                alt="Madero"
+                width={700}
+                height={700}
+                className=" w-64 h-64 rounded-full object-cover mx-auto"
+              />
             </div>
 
             {/* Behandlung 2: Microneedling */}
@@ -56,6 +64,14 @@ export default function ContactPage() {
               >
                 Jetzt buchen
               </a>
+
+              <Image
+                src={(process.env.PAGES_BASE_PATH || "") + "/DSC_0902.jpg"}
+                alt="Madero"
+                width={700}
+                height={700}
+                className="w-64 h-64 rounded-full object-cover mx-auto"
+              />
             </div>
           </div>
         </div>
@@ -72,7 +88,7 @@ export default function ContactPage() {
           {/* Beschreibung */}
           <p className="text-xl leading-relaxed mb-12 px-4 md:px-0">
             Eine wohltuende Entspannung nach dem stressigen Tag: Sanfte
-            Reinigung, ausgiebige Massage und Gua Sha für einen harmonischen
+            Reinigung, ausgiebige Massage mit Gua Sha für einen harmonischen
             Lymphfluss. Verwöhnen Sie Ihre Haut mit reichhaltiger,
             hauttypgerechter Pflege.
           </p>
@@ -94,6 +110,13 @@ export default function ContactPage() {
             >
               Buchen
             </a>
+            <Image
+              src={(process.env.PAGES_BASE_PATH || "") + "/DSC_0892.jpg"}
+              alt="Madero"
+              width={700}
+              height={700}
+              className=" w-64 h-64 rounded-full object-cover mx-auto"
+            />
           </div>
 
           {/* Add-ons */}
@@ -142,14 +165,14 @@ export default function ContactPage() {
               <h3 className="text-xl font-bold mb-6">Purify-Paket</h3>
               <ul className="list-none mb-8 space-y-4">
                 <li>✦ Hauttyp-Analyse & Beratung</li>
-                <li> ✦ Sanftes Enzympeeling</li>
+                <li> ✦ Sanftes Peeling</li>
                 <li> ✦ Tiefenreinigung + Maske</li>
                 <li> ✦ Nicht-komedogene Tagespflege</li>
               </ul>
               <div className="text-2xl font-semibold mb-4">70 € | 50 Min.</div>
             </div>
           </div>
-          <div className="bg-white shadow-sm p-8 rounded-3xl md:w-1/2">
+          <div className="bg-white shadow-sm p-8 rounded-3xl ">
             <h3 className="text-xl font-bold mb-6">Optionale Add-ons</h3>
             <div className="space-y-6">
               <div>
@@ -169,32 +192,11 @@ export default function ContactPage() {
         {/* CTA-Button */}
         <a
           href="/buchung"
-          className="bg-red-300 text-center text-blue-950 px-12 py-4 rounded-3xl hover:bg-fuchsia-200 transition"
+          className="block w-fit mx-auto bg-pink-200 text-center text-blue-950 px-12 py-4 rounded-3xl hover:bg-fuchsia-200 transition"
         >
           Termin sichern
         </a>
       </div>{" "}
-      <Image
-        src={(process.env.PAGES_BASE_PATH || "") + "/DSC_0892.jpg"}
-        alt="Madero"
-        width={700}
-        height={700}
-        className=" w-2/3 object-cover mx-auto"
-      />
-      <Image
-        src={(process.env.PAGES_BASE_PATH || "") + "/DSC_0907.jpg"}
-        alt="Madero"
-        width={700}
-        height={700}
-        className=" w-2/3 object-cover mx-auto"
-      />
-      <Image
-        src={(process.env.PAGES_BASE_PATH || "") + "/DSC_0902.jpg"}
-        alt="Madero"
-        width={700}
-        height={700}
-        className=" w-2/3 object-cover mx-auto"
-      />
     </div>
   );
 }

@@ -53,14 +53,14 @@ export default function ContactPage() {
       </div>{" "}
       <br />{" "}
       <Image
-        src={(process.env.PAGES_BASE_PATH || "") + "/IMG_3347.jpg"}
+        src={(process.env.PAGES_BASE_PATH || "") + "bild"}
         alt="Madero"
         width={1290}
         height={1065}
         className=" w-2/3 object-cover mx-auto"
       />
       {/* Call-to-Action: Termin buchen */}
-      <div className="bg-gradient-to-r from-emerald-300 to-red-200 text-center text-gray-800 rounded-xl p-8 shadow-lg">
+      <div className="bg-gradient-to-r from-purple-50 to-fuchsia-200 text-center text-gray-800 rounded-xl p-8 shadow-lg">
         <h2 className="text-2xl font-semibold mb-3 text-white">
           Buchen Sie Ihren Termin
         </h2>

@@ -27,7 +27,7 @@ export default function BuchungPage() {
               href="https://cal.com/bea-kaiser-xp4fzo"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex-1 bg-orange-500 text-white text-center px-6 py-3 rounded-xl font-bold hover:bg-orange-600 transition shadow-lg"
+              className="flex-1 bg-pink-300 text-white text-center px-6 py-3 rounded-xl font-bold hover:bg-pink-400 transition shadow-lg"
             >
               Weiter zu cal.com – Termin buchen
             </a>
