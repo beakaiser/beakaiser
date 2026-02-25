@@ -101,7 +101,7 @@ const Hero10 = () => {
       <h1 className="text-5xl md:text-7xl font-light tracking-tight mb-6">
         Beautify
       </h1>
-      <div className="text-2xl font-bold text-fuchsia-300 uppercase mb-10">
+      <div className="text-2xl font-bold text-mauve-700 uppercase mb-10">
         FACE
       </div>
 

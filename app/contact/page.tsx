@@ -15,7 +15,47 @@ export default function ContactPage() {
             <span className="font-medium text-gray-800">Longvity</span> – einem
             Netzwerk für nachhaltige Gesundheit und Lebensqualität. <br />
           </p>{" "}
+          <Image
+            src={(process.env.PAGES_BASE_PATH || "") + "beauty_.png"}
+            alt="kibeauty"
+            width={1344}
+            height={768}
+            className=" object-cover mx-auto"
+          />
           <br /> <br />
+          <br /> {/* Call-to-Action: Termin buchen */}
+          <div className="bg-gradient-to-r from-blue-100 to-mauve-700 text-center text-gray-800 rounded-xl p-8 shadow-lg">
+            <h2 className="text-2xl font-semibold mb-3 text-white">
+              Buchen Sie Ihren Termin
+            </h2>
+            <p className="text-lg text-cyan-50 mb-6 max-w-lg mx-auto">
+              jetzt per Klick – finden Sie einen Zeitpunkt, der zu Ihnen passt.
+            </p>
+            <a
+              href="/buchung"
+              className="inline-block bg-white text-gray-700 px-8 py-4 rounded-lg text-lg font-medium hover:bg-gray-100 transition-all duration-200 shadow-md hover:shadow-xl transform hover:-translate-y-1"
+            >
+              Jetzt Termin buchen
+            </a>
+          </div>
+          {/* Impressum & Datenschutz */}
+          <div className="text-center">
+            <div className="text-1x1 text-gray-600 space-x-3">
+              <a
+                href="/impressum"
+                className="hover:text-blue-600 transition-colors"
+              >
+                Impressum
+              </a>
+              <span>|</span>
+              <a
+                href="/datenschutz"
+                className="hover:text-blue-600 transition-colors"
+              >
+                Datenschutzerklärung
+              </a>
+            </div>
+          </div>
           <h1 className="text-3xl font-semibold text-gray-800">Kontakt</h1>
           <div className="space-y-4 text-gray-700">
             <p>
@@ -51,47 +91,6 @@ export default function ContactPage() {
           </div>
         </div>
       </div>{" "}
-      <br />{" "}
-      <Image
-        src={(process.env.PAGES_BASE_PATH || "") + "bild"}
-        alt="Madero"
-        width={1290}
-        height={1065}
-        className=" w-2/3 object-cover mx-auto"
-      />
-      {/* Call-to-Action: Termin buchen */}
-      <div className="bg-gradient-to-r from-purple-50 to-fuchsia-200 text-center text-gray-800 rounded-xl p-8 shadow-lg">
-        <h2 className="text-2xl font-semibold mb-3 text-white">
-          Buchen Sie Ihren Termin
-        </h2>
-        <p className="text-lg text-gray-500 mb-6 max-w-lg mx-auto">
-          jetzt per Klick – finden Sie einen Zeitpunkt, der zu Ihnen passt.
-        </p>
-        <a
-          href="/buchung"
-          className="inline-block bg-white text-gray-700 px-8 py-4 rounded-lg text-lg font-medium hover:bg-gray-100 transition-all duration-200 shadow-md hover:shadow-xl transform hover:-translate-y-1"
-        >
-          Jetzt Termin buchen
-        </a>
-      </div>
-      {/* Impressum & Datenschutz */}
-      <div className="text-center">
-        <div className="text-1x1 text-gray-600 space-x-3">
-          <a
-            href="/impressum"
-            className="hover:text-blue-600 transition-colors"
-          >
-            Impressum
-          </a>
-          <span>|</span>
-          <a
-            href="/datenschutz"
-            className="hover:text-blue-600 transition-colors"
-          >
-            Datenschutzerklärung
-          </a>
-        </div>
-      </div>
       {/* Google Maps */}
       <div className="rounded-xl overflow-hidden shadow-lg">
         <iframe

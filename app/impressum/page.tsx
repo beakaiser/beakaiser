@@ -21,7 +21,7 @@ export default function ImpressumPage() {
             <p className="text-gray-700">
               <strong>Sabine Kaiser</strong>
               <br />
-              Longevity Beauty -LongvityCenter Berlin
+              Longvity Beauty -LongvityCenter Berlin
               <br />
               Geiserichstraße 3, 12105 Berlin, Deutschland
               <br />
@@ -95,55 +95,17 @@ export default function ImpressumPage() {
               Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV
             </h2>
             <p className="text-gray-700">
-              <strong>Sabine Kaiser</strong>
+              <strong> Beatrice Kaiser </strong>
               <br />
-              Longevity Beauty - LongvityCenter Berlin
+              Longvity Beauty - LongvityCenter Berlin
               <br />
               Geiserichstraße 3, 12105 Berlin, Deutschland
             </p>
           </section>
         </div>
 
-        {/* Hinweis-Box wie im Datenschutz */}
-        <div className="bg-blue-50 border border-blue-200 p-4 rounded mb-6 mt-8">
-          <h2 className="font-semibold text-blue-800 mb-2">
-            Hinweis zur Plattform
-          </h2>
-          <p className="text-blue-700 text-sm">
-            Diese Website dient der Information und Terminbuchung über den
-            externen Dienst{" "}
-            <a
-              href="https://cal.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-blue-600 underline"
-            >
-              cal.com
-            </a>
-            . Für die Verarbeitung Ihrer Daten gilt deren Datenschutzerklärung.
-            Die Datenverarbeitung erfolgt auf Basis von Art. 6 Abs. 1 lit. b
-            DSGVO (Vertragsabwicklung).
-          </p>
-        </div>
-
         {/* Buttons wie im Original */}
-        <div className="flex flex-col sm:flex-row gap-4">
-          <a
-            href="https://cal.com/bea-kaiser-xp4fzo"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex-1 bg-red-300 text-white text-center px-6 py-3 rounded hover:bg-blue-700 transition"
-          >
-            Weiter zu cal.com – Termin buchen
-          </a>
-
-          <a
-            href="/"
-            className="flex-1 bg-gray-200 text-gray-800 text-center px-6 py-3 rounded hover:bg-gray-300 transition"
-          >
-            Zurück zur Startseite
-          </a>
-        </div>
+        <div className="flex flex-col sm:flex-row gap-4"></div>
       </main>
     </div>
   );

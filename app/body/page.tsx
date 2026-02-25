@@ -4,9 +4,9 @@ export default function ContactPage() {
   return (
     <div className="flex flex-col items-center">
       {/* Kopfabschnitt (heller Grauton) */}
-      <div className=" bg-gradient-to-r from-blue-50 to-fuchsia-100 w-full py-8">
-        <div className="bg-gradient-to-r from-fuchsia-100 to-blue-200 w-full h-full p-8 border-4 border-gray-100 items-center">
-          <div className="text-3xl text-gray-600 font-bold text-center">
+      <div className=" bg-gradient-to-r from-blue-50 to-mauve-100 w-full py-8">
+        <div className="bg-gradient-to-r from-mauve-700 to-blue-200 w-full h-full p-8 border-4 border-gray-100 items-center">
+          <div className="text-3xl text-white font-bold text-center">
             DIVINE BODY TREATMENT
           </div>
         </div>
@@ -48,16 +48,6 @@ export default function ContactPage() {
           <br /> <br />
         </div>
         {/* CTA-Button in hellerem Rahmen */}
-        <div className="bg-gradient-to-r from-fuchsia-100 to-blue-200 w-full h-8 p-8 border-2 border-indigo-300 rounded-lg flex items-center justify-center">
-          <div className=" border-indigo-200 rounded-lg">
-            <a
-              href="/buchung"
-              className="bg-blue-200 text-gray-900 px-8 py-4 rounded-4xl hover:bg-fuchsia-100"
-            >
-              Termin buchen
-            </a>
-          </div>
-        </div>
       </div>
     </div>
   );

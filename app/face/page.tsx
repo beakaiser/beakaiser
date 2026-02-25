@@ -8,12 +8,14 @@ export default function ContactPage() {
       <br />
       <br />
       <br /> <br />
-      <div className="bg-gradient-to-r from-fuchsia-100 to-indigo-100 py-12 px-6 md:px-12 text-gray-700">
+      <div className="bg-gradient-to-r from-blue-200 to-mauve-700 py-12 px-6 md:px-12 text-gray-700">
         <div className="max-w-3xl mx-auto text-center space-y-8">
-          <h2 className="text-3xl font-bold uppercase mb-4">Rejuvinate</h2>
+          <h2 className="text-3xl font-bold text-white uppercase mb-4">
+            Rejuvinate
+          </h2>
           <p className="text-lg leading-relaxed mb-8">
             Entdecken Sie unsere innovativen chinesischen Gesichtsbehandlungen,
-            die Ihre Haut mit passgenauer Pflege und traditionellen
+            die Ihre Haut mit zellerneuernder Pflege und traditionellen
             Heiltechniken verwöhnen.
           </p>
 
@@ -31,20 +33,6 @@ export default function ContactPage() {
               <div className="text-lg font-semibold mb-4">
                 90 € | 60 Minuten
               </div>
-              <a
-                href="/buchung"
-                className="bg-fuchsia-200 text-gray-900 px-6 py-3 rounded-lg hover:bg-pink-300"
-              >
-                Jetzt buchen
-              </a>
-
-              <Image
-                src={(process.env.PAGES_BASE_PATH || "") + "/DSC_0907.jpg"}
-                alt="Madero"
-                width={700}
-                height={700}
-                className=" w-64 h-64 rounded-full object-cover mx-auto"
-              />
             </div>
 
             {/* Behandlung 2: Microneedling */}
@@ -58,20 +46,6 @@ export default function ContactPage() {
               <div className="text-lg font-semibold mb-4">
                 190 € | 110 Minuten
               </div>
-              <a
-                href="/buchung"
-                className="bg-fuchsia-200 text-shadow-blue-950hite px-6 py-3 rounded-lg hover:bg-pink-300"
-              >
-                Jetzt buchen
-              </a>
-
-              <Image
-                src={(process.env.PAGES_BASE_PATH || "") + "/DSC_0902.jpg"}
-                alt="Madero"
-                width={700}
-                height={700}
-                className="w-64 h-64 rounded-full object-cover mx-auto"
-              />
             </div>
           </div>
         </div>
@@ -81,9 +55,9 @@ export default function ContactPage() {
       <br />
       <br />
       <br />
-      <div className=" bg-gradient-to-r from-emerald-100 to-blue-200 py-12 md:py-16 text-gray-600">
+      <div className=" bg-gradient-to-r from-mauve-700 to-blue-200 py-12 md:py-16 text-gray-600">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-4xl font-bold mb-8">Relax</h2>
+          <h2 className="text-4xl text-white font-bold mb-8">RELAX</h2>
 
           {/* Beschreibung */}
           <p className="text-xl leading-relaxed mb-12 px-4 md:px-0">
@@ -104,19 +78,6 @@ export default function ContactPage() {
               <li> Gua Sha für Lymphaktivierung</li>
             </ul>
             <div className="text-xl font-bold mb-6">70 € | 60 Minuten</div>
-            <a
-              href="/buchung"
-              className="bg-gray-300 text-gray-700 px-8 py-4 rounded-lg hover:bg-blue-100"
-            >
-              Buchen
-            </a>
-            <Image
-              src={(process.env.PAGES_BASE_PATH || "") + "/DSC_0892.jpg"}
-              alt="Madero"
-              width={700}
-              height={700}
-              className=" w-64 h-64 rounded-full object-cover mx-auto"
-            />
           </div>
 
           {/* Add-ons */}
@@ -150,9 +111,11 @@ export default function ContactPage() {
       <br />
       <br />
       <br />
-      <div className="bg-gradient-to-r from-blue-50 to-blue-200 py-16 text-gray-700">
+      <div className="bg-gradient-to-r from-mauve-500 to-blue-200 py-16 text-gray-700">
         <div className="container mx-auto px-4 md:px-12 text-center">
-          <h1 className="text-4xl font-bold uppercase mb-8">Purify</h1>
+          <h1 className="text-4xl font-bold text-white uppercase mb-8">
+            Purify
+          </h1>
           {/* Beschreibung */}
           <p className="text-2xl leading-relaxed mb-12 max-w-4xl mx-auto">
             Tiefe Reinigung für strahlende Haut: Individuelle Hautanalyse,
@@ -162,10 +125,10 @@ export default function ContactPage() {
           {/* Preise */}
           <div className="flex flex-col md:flex-row justify-center gap-8 mb-12">
             <div className="bg-white shadow-sm p-8 rounded-3xl md:w-1/2">
-              <h3 className="text-xl font-bold mb-6">Purify-Paket</h3>
+              <h3 className="text-xl font-bold  mb-6">Purify-Paket</h3>
               <ul className="list-none mb-8 space-y-4">
                 <li>✦ Hauttyp-Analyse & Beratung</li>
-                <li> ✦ Sanftes Peeling</li>
+                <li> ✦ Sanftes Enzympeeling</li>
                 <li> ✦ Tiefenreinigung + Maske</li>
                 <li> ✦ Nicht-komedogene Tagespflege</li>
               </ul>
@@ -188,14 +151,6 @@ export default function ContactPage() {
             </div>
           </div>
         </div>
-
-        {/* CTA-Button */}
-        <a
-          href="/buchung"
-          className="block w-fit mx-auto bg-pink-200 text-center text-blue-950 px-12 py-4 rounded-3xl hover:bg-fuchsia-200 transition"
-        >
-          Termin sichern
-        </a>
       </div>{" "}
     </div>
   );

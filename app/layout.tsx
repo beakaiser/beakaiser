@@ -36,7 +36,7 @@ const Navbar = () => {
 function Footer() {
   return (
     <footer className="bg-gray-200 text-center py-6">
-      <p>&copy; 2025 Longevity Beauty by LongvityCenter® </p>
+      <p>&copy; 2026 Longvity® Beauty by Bea </p>
     </footer>
   );
 }

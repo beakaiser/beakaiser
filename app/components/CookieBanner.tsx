@@ -72,7 +72,7 @@ const CookieBanner = () => {
           </button>
           <button
             onClick={handleAccept}
-            className="bg-pink-600 hover:bg-pink-700 text-white font-bold py-3 px-8 rounded-xl shadow-lg"
+            className="bg-mauve-600 hover:bg-pink-700 text-white font-bold py-3 px-8 rounded-xl shadow-lg"
           >
             Alles akzeptieren
           </button>

@@ -164,23 +164,7 @@ export default function DatenschutzPage() {
         </div>
 
         {/* Buttons wie im Original */}
-        <div className="flex flex-col sm:flex-row gap-4">
-          <a
-            href="https://cal.com/bea-kaiser-xp4fzo"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex-1 bg-blue-600 text-white text-center px-6 py-3 rounded hover:bg-blue-700 transition"
-          >
-            Weiter zu cal.com – Termin buchen
-          </a>
-
-          <a
-            href="/"
-            className="flex-1 bg-gray-200 text-gray-800 text-center px-6 py-3 rounded hover:bg-gray-300 transition"
-          >
-            Zurück zur Startseite
-          </a>
-        </div>
+        <div className="flex flex-col sm:flex-row gap-4"></div>
       </main>
     </div>
   );
