@@ -23,7 +23,7 @@ export default function DatenschutzPage() {
             <p className="text-gray-700">
               <strong>Sabine Kaiser</strong>
               <br />
-              Longevity Beauty - Longvity Center Berlin
+              Longvity Beauty - Longvity Center Berlin
               <br />
               Geiserichstraße 3, 12105 Berlin, Deutschland
               <br />
@@ -43,8 +43,30 @@ export default function DatenschutzPage() {
               2. Daten beim Besuch der Website
             </h2>
             <p className="text-gray-700">
-              Beim Aufruf dieser Website werden keine Cookies oder
-              Tracking-Tools verwendet.
+              <li>
+                Notwendige Cookies/ Speichermedien Nach (Art. 6 Abs. 1 lit. f
+                DSGVO): Zur Speicherung Ihrer Einwilligung nutzen wir den Local
+                Storage Ihres Browsers. Dabei wird ein Wert gespeichert, der
+                dokumentiert, dass Sie den Zugriff auf unser externes
+                Buchungstool erlaubt haben. Dies ist technisch notwendig, um
+                Ihnen den Dienst anzuzeigen. Zudem setzt der externe Anbieter
+                Calendly eigene technisch notwendige Cookies, um den
+                Buchungsprozess zu ermöglichen und die Sicherheit der Anwendung
+                zu gewährleisten.{" "}
+                <li>
+                  {" "}
+                  Widerruf vs. Löschung: Bitte beachten Sie, dass ein Widerruf
+                  der Einwilligung über die Browser-Einstellungen lediglich die
+                  zukünftige Anzeige des Buchungstools verhindert. Bereits
+                  getätigte Terminbuchungen und die damit verbundenen
+                  Datenverarbeitungen zur Termindurchführung bleiben hiervon
+                  unberührt. Möchten Sie eine Löschung Ihrer bereits
+                  übermittelten Buchungsdaten erwirken, kontaktieren Sie uns
+                  bitte direkt gemäß den im Abschnitt 'Ihre Rechte' aufgeführten
+                  Bedingungen. Ein Widerruf der Cookie-Einwilligung erfolgt
+                  durch einen Klick am Seitenende.
+                </li>
+              </li>
             </p>
           </section>
 
@@ -66,8 +88,7 @@ export default function DatenschutzPage() {
               </li>
               <li>
                 cal.com ist DSGVO-konform und verwendet Analysetools wie
-                PostHog, aber{" "}
-                <strong>keine Tracking-Cookies auf unserer Website</strong>.
+                PostHog.
               </li>
               <li>
                 Lesen Sie die Datenschutzerklärung von cal.com:{" "}
@@ -79,6 +100,35 @@ export default function DatenschutzPage() {
                 >
                   cal.com/privacy
                 </a>
+              </li>
+            </ul>
+          </section>
+
+          <section>
+            <h2 className="text-lg font-semibold text-gray-800 mb-2">
+              3.1 Einwilligung der Datenverarbeitung bei der Terminbuchung
+            </h2>
+            <p className="text-gray-700">gemäß Art. 6 Abs. 1 lit. a DSGVO</p>
+            <ul className="text-gray-700 mt-2 space-y-1 list-disc list-inside">
+              <li>
+                Bestimmte Funktionen unserer Website (z. B. die
+                Online-Terminbuchung) stehen Ihnen erst nach Erteilung einer
+                ausdrücklichen Einwilligung zur Verfügung. Hierzu nutzen wir ein
+                vorgeschaltetes Auswahlbanner.
+              </li>
+
+              <li>
+                AV-Vertrag: Wir haben mit dem Anbieter einen
+                Auftragsverarbeitungsvertrag (Data Processing Addendum) gemäß
+                Art. 28 DSGVO geschlossen. Empfänger: Calendly, LLC, 115 E Main
+                St, Ste A1B, Rock Hill, SC 29730, USA. +3, Zweck:
+                Terminvereinbarung auf Kundenwunsch. Rechtsgrundlage: Die über
+                den Banner eingeholte Einwilligung (Art. 6 Abs. 1 lit. a DSGVO).
+                1. Calendly stellt den aktuellen DPA online unter
+                calendly.com/legal/data-processing-addendum zur Verfügung. Durch
+                die Nutzung von Calendly in der EU/EWR-Region gilt dieser Zusatz
+                als abgeschlossen, ohne dass ein zusätzliches Dokument
+                unterschrieben werden muss.
               </li>
             </ul>
           </section>

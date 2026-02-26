@@ -56,11 +56,11 @@ const CookieBanner = () => {
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
         <div className="text-gray-600 text-sm md:text-base leading-relaxed">
           <span className="text-xl mr-2">🍪</span>
-          Diese Website verwendet Cookies für die **Terminbuchung**. Details:{" "}
+          Diese Website benötigt Ihr Einverständnis für die Terminbuchung.
+          Details:{" "}
           <a href="/datenschutz" className="underline">
             Datenschutz
           </a>
-          .
         </div>
 
         <div className="flex gap-4">

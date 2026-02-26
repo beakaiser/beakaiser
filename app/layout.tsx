@@ -3,6 +3,8 @@ import Link from "next/link";
 import "./globals.css";
 // SCHRITT 1: Importiere deinen CookieBanner (Pfad eventuell anpassen!)
 import CookieBanner from "./components/CookieBanner";
+// NEU: Importiere den Client-Footer
+import Footer from "./components/Footer";
 
 export const metadata: Metadata = {
   title: "Longevity Beauty",
@@ -33,21 +35,13 @@ const Navbar = () => {
   );
 };
 
-function Footer() {
-  return (
-    <footer className="bg-gray-200 text-center py-6">
-      <p>&copy; 2026 Longvity® Beauty by Bea </p>
-    </footer>
-  );
-}
-
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="de">
       <body className="antialiased">
         {/* SCHRITT 2: Hier den Banner einfügen */}
         <CookieBanner />

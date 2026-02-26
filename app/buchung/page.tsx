@@ -47,7 +47,7 @@ export default function BuchungPage() {
         </div>
 
         {!hasConsent && (
-          <p className="text-red-500 text-xs mt-4 text-center">
+          <p className="text-blue-400 text-xs mt-4 text-center">
             * Der Buchungs-Button wird erst freigeschaltet, wenn Sie den Cookies
             im Banner zustimmen.
           </p>
