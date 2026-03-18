@@ -11,7 +11,7 @@ export default function Footer() {
   return (
     <footer className="bg-gray-100 text-center py-8 mt-10 border-t border-gray-200">
       <p className="text-sm text-gray-600">
-        &copy; 2026 Longevity Beauty by Bea LongevityCenter®
+        &copy; 2026 Longvity Beauty by LongvityCenter®
       </p>
       <button
         onClick={handleRevoke}

@@ -3,155 +3,200 @@ import Image from "next/image";
 
 export default function ContactPage() {
   return (
-    <div className="bg-white size-10 w-full text-black h-full  ">
-      <br />
-      <br />
-      <br />
-      <br /> <br />
-      <div className="bg-gradient-to-r from-blue-200 to-mauve-700 py-12 px-6 md:px-12 text-gray-700">
-        <div className="max-w-3xl mx-auto text-center space-y-8">
-          <h2 className="text-3xl font-bold text-white uppercase mb-4">
-            Rejuvinate
-          </h2>
-          <p className="text-lg leading-relaxed mb-8">
-            Entdecken Sie unsere innovativen chinesischen Gesichtsbehandlungen,
-            die Ihre Haut mit zellerneuernder Pflege und traditionellen
-            Heiltechniken verwöhnen.
-          </p>
-
-          <div className="flex flex-col md:flex-row justify-center gap-8">
-            {/* Behandlung 1: Traditionell Verjüngende Massage */}
-            <div className="bg-white rounded-2xl p-6 shadow-sm w-full md:w-80">
-              <h3 className="text-2xl font-semibold mb-4">
-                Traditionell Verjüngende Gesichtsmassage
-              </h3>
-              <p className="text-base mb-6">
-                Eine einzigartige Massage mit Schönheitswerkzeugen, die den
-                Qi-Fluss harmonisiert und Ihre Haut strahlen lässt. Inklusive
-                Reinigung und zellerneuernder Pflege.
-              </p>
-              <div className="text-lg font-semibold mb-4">
-                90 € | 60 Minuten
-              </div>
-            </div>
-
-            {/* Behandlung 2: Microneedling */}
-            <div className="bg-white rounded-2xl p-6 shadow-sm w-full md:w-80">
-              <h3 className="text-2xl font-semibold mb-4">Microneedling</h3>
-              <p className="text-base mb-6">
-                Intensive Collagen-Boost-Behandlung durch Mikro-Perforation. Für
-                ein pralles, rosigeres Hautbild – basierend auf alten
-                Schönheitsgeheimnissen.
-              </p>
-              <div className="text-lg font-semibold mb-4">
-                190 € | 110 Minuten
-              </div>
-            </div>
-          </div>
+    <div className="min-h-screen bg-[#FDFCFB] flex flex-col items-center pb-20 font-sans">
+      {/* --- ELEGANT HEADER --- */}
+      <div className="w-full relative h-[350px] flex items-center justify-center overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-r from-[#7B667E] to-[#A4B8C4]"></div>
+        <div className="absolute inset-0 opacity-10 bg-[url('https://transparenttextures.com')]"></div>
+        <div className="relative z-10 text-center px-4">
+          <span className="uppercase tracking-[0.4em] text-xs md:text-sm text-white/80 mb-3 block">
+            Traditional Chinese Beauty
+          </span>
+          <h1 className="text-5xl md:text-7xl text-white font-extralight tracking-tighter">
+            FACIAL <span className="font-semibold italic">RITUALS</span>
+          </h1>
+          <div className="h-[1px] w-24 bg-white/30 mx-auto mt-8"></div>
         </div>
       </div>
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <div className=" bg-gradient-to-r from-mauve-700 to-blue-200 py-12 md:py-16 text-gray-600">
-        <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-4xl text-white font-bold mb-8">RELAX</h2>
 
-          {/* Beschreibung */}
-          <p className="text-xl leading-relaxed mb-12 px-4 md:px-0">
-            Eine wohltuende Entspannung nach dem stressigen Tag: Sanfte
-            Reinigung, ausgiebige Massage mit Gua Sha für einen harmonischen
-            Lymphfluss. Verwöhnen Sie Ihre Haut mit reichhaltiger,
-            hauttypgerechter Pflege.
-          </p>
-
-          {/* Hauptbehandlung */}
-          <div className="bg-white rounded-3xl shadow-md p-8 mb-12">
-            <h3 className="text-2xl font-semibold mb-4">
-              Entspannendes Gesichtsritual
-            </h3>
-            <ul className="list-none mb-6 text-lg space-y-3">
-              <li> Sanfte Reinigung und Pflege</li>
-              <li> Tiefenentspannende Gesichtsmassage</li>
-              <li> Gua Sha für Lymphaktivierung</li>
-            </ul>
-            <div className="text-xl font-bold mb-6">70 € | 60 Minuten</div>
+      {/* --- MAIN CONTENT CONTAINER --- */}
+      <div className="max-w-5xl w-full px-6 -mt-16 relative z-20">
+        {/* --- SECTION 1: REJUVINATE --- */}
+        <section className="bg-white rounded-3xl shadow-xl p-8 md:p-16 mb-16 border border-gray-50">
+          <div className="text-center mb-16">
+            <span className="text-[#7B667E] font-medium uppercase tracking-widest text-xs">
+              Zellerneuerung
+            </span>
+            <h2 className="text-4xl font-serif mt-2 text-gray-800">
+              Rejuvenate
+            </h2>
+            <p className="text-gray-500 mt-4 max-w-2xl mx-auto leading-relaxed">
+              Innovative chinesische Gesichtsbehandlungen, die Ihre Haut mit
+              traditionellen Heiltechniken und moderner Pflege verwöhnen.
+            </p>
           </div>
 
-          {/* Add-ons */}
-          <div className="space-y-6 mb-12">
-            <div className="bg-gray-50 p-6 rounded-2xl">
-              <h4 className="text-lg font-semibold mb-3">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+            <div className="group border-l-2 border-gray-100 pl-8 hover:border-[#7B667E] transition-all">
+              <h3 className="text-xl font-bold text-gray-900 mb-3">
+                Traditionell Verjüngende Massage
+              </h3>
+              <p className="text-gray-600 mb-6 text-sm leading-relaxed">
+                Qi-Fluss Harmonisierung mit Schönheitswerkzeugen. Inklusive
+                Reinigung und zellerneuernder Pflege für ein strahlendes
+                Ergebnis.
+              </p>
+              <div className="text-[#7B667E] font-semibold tracking-tighter text-lg">
+                90 € | 60 Min.
+              </div>
+            </div>
+
+            <div className="group border-l-2 border-gray-100 pl-8 hover:border-[#7B667E] transition-all">
+              <h3 className="text-xl font-bold text-gray-900 mb-3">
+                Microneedling
+              </h3>
+              <p className="text-gray-600 mb-6 text-sm leading-relaxed">
+                Intensive Collagen-Boost-Behandlung durch Mikro-Perforation. Für
+                ein pralles, rosiges Hautbild nach alten Geheimnissen.
+              </p>
+              <div className="text-[#7B667E] font-semibold tracking-tighter text-lg">
+                139 € | 90 Min.
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* --- SECTION 2: RELAX --- */}
+        <section className="bg-white rounded-3xl shadow-xl p-8 md:p-16 mb-16 border border-gray-50">
+          <div className="text-center mb-16">
+            <span className="text-[#A4B8C4] font-medium uppercase tracking-widest text-xs">
+              Tiefe Entspannung
+            </span>
+            <h2 className="text-4xl font-serif mt-2 text-gray-800">Relax</h2>
+            <p className="text-gray-500 mt-4 max-w-2xl mx-auto leading-relaxed">
+              Sanfte Reinigung und ausgiebige Massage mit Gua Sha für einen
+              harmonischen Lymphfluss nach einem stressigen Tag.
+            </p>
+          </div>
+
+          <div className="bg-[#F8F9FA] rounded-2xl p-8 mb-12 flex flex-col md:flex-row justify-between items-center border border-gray-100">
+            <div className="text-center md:text-left">
+              <h3 className="text-2xl font-semibold text-gray-900">
+                Entspannendes Gesichtsritual
+              </h3>
+              <p className="text-gray-500 text-sm mt-1">
+                Reinigung • Massage • Gua Sha
+              </p>
+            </div>
+            <div className="mt-4 md:mt-0 text-2xl font-light text-[#7B667E]">
+              75 € | 50 Min.
+            </div>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="p-6 rounded-xl border border-gray-100 hover:shadow-md transition-shadow">
+              <h4 className="font-bold text-gray-800 mb-2">
                 + Wärmender Kräuterstempel
               </h4>
-              <p className="mb-4">
-                Aromatische Kräuterwärme für entspannte Sinne und verbesserte
-                Durchblutung (zubuchbar).
+              <p className="text-sm text-gray-600 mb-4 italic">
+                Aromatische Wärme für entspannte Sinne.
               </p>
-              <div className="text-lg font-bold">20 € | 15 Minuten</div>
+              <div className="text-[#7B667E] font-bold">20 € | 15 Min.</div>
             </div>
-
-            <div className="bg-gray-50 p-6 rounded-2xl">
-              <h4 className="text-lg font-semibold mb-3">
+            <div className="p-6 rounded-xl border border-gray-100 hover:shadow-md transition-shadow">
+              <h4 className="font-bold text-gray-800 mb-2">
                 + Ceragem-Massageliege
               </h4>
-              <p className="mb-4">
-                Wärme und Massage für den Rücken – ideal nach der Behandlung.
-                Verfügbare Dauern: 20, 30 oder 45 Minuten.
+              <p className="text-sm text-gray-600 mb-4 italic">
+                Wärme & Massage für den Rücken.
               </p>
-              <div className="text-lg font-bold">ab 12 € | ab 20 Minuten</div>
+              <div className="text-[#7B667E] font-bold">
+                ab 12 € | ab 20 Min.
+              </div>
             </div>
           </div>
+        </section>
+
+        {/* --- SECTION 3: PURIFY --- */}
+        <section className="bg-[#4A3B4D] rounded-3xl shadow-2xl p-8 md:p-16 text-white relative overflow-hidden">
+          <div className="absolute top-0 right-0 w-64 h-64 bg-white/5 blur-3xl rounded-full -mr-20 -mt-20"></div>
+
+          <div className="relative z-10">
+            <div className="text-center mb-12">
+              <span className="text-slate-400 font-medium uppercase tracking-[0.3em] text-xs">
+                Reinheit
+              </span>
+              <h2 className="text-4xl font-serif mt-2">Purify</h2>
+            </div>
+
+            <div className="bg-white/10 backdrop-blur-md rounded-2xl p-8 border border-white/10 mb-10">
+              <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-6 border-b border-white/10 pb-6">
+                <h3 className="text-2xl font-light tracking-wide">
+                  Purify-Paket
+                </h3>
+                <span className="text-2xl font-bold mt-2 md:mt-0">
+                  80 €{" "}
+                  <span className="text-lg font-light opacity-60">
+                    | 60 Min.
+                  </span>
+                </span>
+              </div>
+              <ul className="grid grid-cols-1 md:grid-cols-2 gap-4 text-slate-200">
+                <li className="flex items-center gap-3">
+                  <span className="w-1.5 h-1.5 bg-slate-400 rounded-full"></span>{" "}
+                  Hauttyp-Analyse & Beratung
+                </li>
+                <li className="flex items-center gap-3">
+                  <span className="w-1.5 h-1.5 bg-slate-400 rounded-full"></span>{" "}
+                  Tiefenreinigung + Maske
+                </li>
+                <li className="flex items-center gap-3">
+                  <span className="w-1.5 h-1.5 bg-slate-400 rounded-full"></span>{" "}
+                  Zielgerichtetes Peeling
+                </li>
+                <li className="flex items-center gap-3">
+                  <span className="w-1.5 h-1.5 bg-slate-400 rounded-full"></span>{" "}
+                  Nicht-komedogene Tagespflege
+                </li>
+              </ul>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-center md:text-left pt-6 border-t border-white/5">
+              <div>
+                <h4 className="text-slate-400 uppercase text-xs tracking-widest mb-3">
+                  Augenbrauen
+                </h4>
+                <p className="text-lg">
+                  Formen & Färben <span className="text-white/40 mx-2">|</span>{" "}
+                  25 €
+                </p>
+              </div>
+              <div>
+                <h4 className="text-slate-400 uppercase text-xs tracking-widest mb-3">
+                  Wimpern
+                </h4>
+                <p className="text-lg">
+                  Lifting, Farbe & Pflege{" "}
+                  <span className="text-white/40 mx-2">|</span> 45 €
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* --- FINAL CTA --- */}
+        <div className="mt-20 text-center">
+          <a
+            href="/buchung"
+            className="group relative inline-flex items-center justify-center px-16 py-6 font-bold text-white transition-all duration-200 bg-[#7B667E] font-pj rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900"
+            role="button"
+          >
+            <span className="relative uppercase tracking-widest text-sm">
+              Jetzt Termin buchen
+            </span>
+          </a>
         </div>
       </div>
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <div className="bg-gradient-to-r from-mauve-500 to-blue-200 py-16 text-gray-700">
-        <div className="container mx-auto px-4 md:px-12 text-center">
-          <h1 className="text-4xl font-bold text-white uppercase mb-8">
-            Purify
-          </h1>
-          {/* Beschreibung */}
-          <p className="text-2xl leading-relaxed mb-12 max-w-4xl mx-auto">
-            Tiefe Reinigung für strahlende Haut: Individuelle Hautanalyse,
-            sanftes Peeling, professionelle Porenreinigung und passgenaue Maske.
-            Ideal bei unreiner Haut oder Akne.
-          </p>
-          {/* Preise */}
-          <div className="flex flex-col md:flex-row justify-center gap-8 mb-12">
-            <div className="bg-white shadow-sm p-8 rounded-3xl md:w-1/2">
-              <h3 className="text-xl font-bold  mb-6">Purify-Paket</h3>
-              <ul className="list-none mb-8 space-y-4">
-                <li>✦ Hauttyp-Analyse & Beratung</li>
-                <li> ✦ Sanftes Enzympeeling</li>
-                <li> ✦ Tiefenreinigung + Maske</li>
-                <li> ✦ Nicht-komedogene Tagespflege</li>
-              </ul>
-              <div className="text-2xl font-semibold mb-4">70 € | 50 Min.</div>
-            </div>
-          </div>
-          <div className="bg-white shadow-sm p-8 rounded-3xl ">
-            <h3 className="text-xl font-bold mb-6">Optionale Add-ons</h3>
-            <div className="space-y-6">
-              <div>
-                <span className="font-bold">Augenbrauen:</span>
-                <br />
-                Formen, Färben oder Blondieren (20 € | 20 Min)
-              </div>
-              <div>
-                <span className="font-bold">Wimpern Lifting:</span>
-                <br />
-                Längere Wimpern ohne Mascara (55 € | 60 Min)
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>{" "}
     </div>
   );
 }
