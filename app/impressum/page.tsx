@@ -7,9 +7,23 @@ export default function ImpressumPage() {
         <p className="text-gray-700 mb-6">
           Gemäß § 5 TMG (Telemediengesetz) informieren wir Sie hier über die
           verantwortliche Stelle für diese Website. Angaben gemäß § 5 TMG:
-          Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV: Sabine Kaiser
+          Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV: Sabine Kaiser
           UST- ID: DE 243281582 Heilpraktikerin Geiserichstraße 3, 12105 Berlin
           Telefon: 030/7537100 E-Mail: beacosberlin@gmail.com
+          EU-Streitschlichtung Die Europäische Kommission stellt eine Plattform
+          zur Online-Streitbeilegung (OS) bereit: europa.eu. Unsere
+          E-Mail-Adresse finden Sie unten im Impressum. <br /> Berufsbezeichnung
+          und berufsrechtliche Regelungen Gesetzliche Berufsbezeichnung:
+          Heilpraktikerin (verliehen in der Bundesrepublik Deutschland)
+          Zuständige Aufsichtsbehörde: Gesundheitsamt Berlin [Bezirk, z.B.
+          Tempelhof-Schöneberg] Es gelten folgende berufsrechtliche Regelungen:
+          Gesetz über die berufsmäßige Ausübung der Heilkunde ohne Bestallung
+          (Heilpraktikergesetz) Regelungen einsehbar unter:
+          gesetze-im-internet.de Umsatzsteuer-ID
+          Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz: DE
+          243281582 Angaben gemäß § 5 TMG Sabine Kaiser Longvity Beauty by
+          LongvityCenter Berlin Geiserichstraße 3, 12105 Berlin Kontakt Telefon:
+          030/7537100 E-Mail: beacosberlin@gmail.com
         </p>
 
         {/* Hauptinhalte */}
@@ -21,7 +35,7 @@ export default function ImpressumPage() {
             <p className="text-gray-700">
               <strong>Sabine Kaiser</strong>
               <br />
-              Longvity Beauty -LongvityCenter Berlin
+              Longvity® Beauty by Longvity® Center Berlin
               <br />
               Geiserichstraße 3, 12105 Berlin, Deutschland
               <br />
@@ -65,16 +79,6 @@ export default function ImpressumPage() {
               es sei denn, es liegt Vorsatz oder grobe Fahrlässigkeit vor.
               <br />
               <br />
-              Datenschutz-Hinweis: Für Terminbuchungen nutzen wir cal.com. Bitte
-              beachten Sie die Datenschutzbestimmungen von cal.com:
-              https://cal.com/de/privacy. Im Rahmen der Terminbuchung über
-              cal.com erhalten wir Ihre Kontaktdaten (Name, E-Mail-Adresse) und
-              Termininformationen. Diese Daten werden ausschließlich für die
-              Terminverwaltung und zur Kontaktaufnahme im Rahmen Ihrer Buchung
-              genutzt. Eine Weitergabe an Dritte erfolgt nicht. Nach Ablauf der
-              gesetzlichen Aufbewahrungsfristen werden die Daten gelöscht. Für
-              weitere Fragen zum Datenschutz stehen wir Ihnen gerne zur
-              Verfügung.
             </p>
           </section>
 
@@ -95,9 +99,9 @@ export default function ImpressumPage() {
               Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV
             </h2>
             <p className="text-gray-700">
-              <strong> Beatrice Kaiser </strong>
+              <strong> Sabine Kaiser </strong>
               <br />
-              Longvity Beauty - LongvityCenter Berlin
+              Longvity® Beauty - Longvity® Center Berlin
               <br />
               Geiserichstraße 3, 12105 Berlin, Deutschland
             </p>

@@ -20,7 +20,7 @@ const Navbar = () => {
 const Hero2 = () => {
   return (
     <div>
-      <div className="text-center my-4"> longevity beauty</div>{" "}
+      <div className="text-center my-4"> Longvity® Beauty</div>{" "}
     </div>
   );
 };
@@ -54,7 +54,7 @@ const Hero3 = () => {
         <div className="bg-fuchsia-200 w-25 h-25 text-black font-normal bg-center border-black">
           <p>
             <>
-              <Link href="/face">Rejuvinating </Link>
+              <Link href="/face">Rejuvenating </Link>
             </>
           </p>
           <br />
@@ -86,7 +86,7 @@ const Hero4 = () => {
         <div className="bg-fuchsia-200 w-25 h-25 text-black font-normal bg-center border-black">
           <p>
             <>
-              <Link href="/body">Rejuvinating </Link>
+              <Link href="/body">Rejuvenating </Link>
             </>
           </p>
           <br />

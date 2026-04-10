@@ -23,7 +23,7 @@ export default function DatenschutzPage() {
             <p className="text-gray-700">
               <strong>Sabine Kaiser</strong>
               <br />
-              Longvity Beauty - Longvity Center Berlin
+              Longvity® Beauty - Longvity® Center Berlin
               <br />
               Geiserichstraße 3, 12105 Berlin, Deutschland
               <br />
@@ -88,7 +88,16 @@ export default function DatenschutzPage() {
               </li>
               <li>
                 cal.com ist DSGVO-konform und verwendet Analysetools wie
-                PostHog.
+                PostHog. Datenschutz-Hinweis: Für Terminbuchungen nutzen wir
+                cal.com. Bitte beachten Sie die Datenschutzbestimmungen von
+                cal.com: https://cal.com/de/privacy. Im Rahmen der Terminbuchung
+                über cal.com erhalten wir Ihre Kontaktdaten (Name,
+                E-Mail-Adresse) und Termininformationen. Diese Daten werden
+                ausschließlich für die Terminverwaltung und zur Kontaktaufnahme
+                im Rahmen Ihrer Buchung genutzt. Eine Weitergabe an Dritte
+                erfolgt nicht. Nach Ablauf der gesetzlichen Aufbewahrungsfristen
+                werden die Daten gelöscht. Für weitere Fragen zum Datenschutz
+                stehen wir Ihnen gerne zur Verfügung.
               </li>
               <li>
                 Lesen Sie die Datenschutzerklärung von cal.com:{" "}
@@ -114,7 +123,27 @@ export default function DatenschutzPage() {
                 Bestimmte Funktionen unserer Website (z. B. die
                 Online-Terminbuchung) stehen Ihnen erst nach Erteilung einer
                 ausdrücklichen Einwilligung zur Verfügung. Hierzu nutzen wir ein
-                vorgeschaltetes Auswahlbanner.
+                vorgeschaltetes Auswahlbanner. Online-Terminbuchung via Cal.com:
+                Wir bieten Ihnen auf unserer Website die Möglichkeit, Termine
+                online zu buchen. Hierfür nutzen wir den Dienst Cal.com
+                (Betreiber: Cal.com, Inc., 155 Wilson St, Brooklyn, NY 11211,
+                USA). Cal.com . Zweck der Verarbeitung: Die Verarbeitung Ihrer
+                Daten (z. B. Name, E-Mail-Adresse, Telefonnummer, gewünschter
+                Termin und ggf. Anmerkungen) erfolgt ausschließlich zum Zweck
+                der Terminvereinbarung und -verwaltung. Rechtsgrundlage: Die
+                Datenverarbeitung erfolgt auf Grundlage von Art. 6 Abs. 1 lit. b
+                DSGVO (Erfüllung eines Vertrages oder Durchführung
+                vorvertraglicher Maßnahmen) sowie unserem berechtigten Interesse
+                an einer effizienten Terminverwaltung gemäß Art. 6 Abs. 1 lit. f
+                DSGVO. Auftragsverarbeitung: Wir haben mit Cal.com einen Vertrag
+                über die Auftragsverarbeitung (Data Processing Agreement, DPA)
+                abgeschlossen. Damit stellt der Anbieter sicher, dass er die
+                Daten nur nach unseren Weisungen und im Einklang mit der DSGVO
+                verarbeitet. Drittlandtransfer: Da Cal.com seinen Sitz in den
+                USA hat, erfolgt eine Datenübermittlung in ein Drittland.
+                Cal.com nutzt hierfür anerkannte Schutzmechanismen wie die
+                EU-Standardvertragsklauseln, um ein angemessenes
+                Datenschutzniveau zu gewährleisten.
               </li>
 
               <li>
@@ -125,10 +154,7 @@ export default function DatenschutzPage() {
                 Terminvereinbarung auf Kundenwunsch. Rechtsgrundlage: Die über
                 den Banner eingeholte Einwilligung (Art. 6 Abs. 1 lit. a DSGVO).
                 1. Calendly stellt den aktuellen DPA online unter
-                calendly.com/legal/data-processing-addendum zur Verfügung. Durch
-                die Nutzung von Calendly in der EU/EWR-Region gilt dieser Zusatz
-                als abgeschlossen, ohne dass ein zusätzliches Dokument
-                unterschrieben werden muss.
+                calendly.com/legal/data-processing-addendum zur Verfügung.
               </li>
             </ul>
           </section>
