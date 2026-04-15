@@ -12,7 +12,7 @@ export default function ContactPage() {
         <div className="absolute inset-0 opacity-10 bg-[url('https://transparenttextures.com')]"></div>
         <div className="relative z-10 text-center px-4">
           <span className="uppercase tracking-[0.4em] text-xs md:text-sm text-white/80 mb-3 block">
-            Longvity Netzwerk
+            Longvity&reg; Netzwerk
           </span>
           <h1 className="text-5xl md:text-7xl text-white font-extralight tracking-tighter">
             HEALTH & <span className="font-semibold italic">BEAUTY</span>
@@ -36,7 +36,9 @@ export default function ContactPage() {
                 </h2>
                 <p className="text-gray-500 mt-6 leading-relaxed">
                   Wir sind Teil von{" "}
-                  <span className="font-semibold text-gray-800">Longvity</span>{" "}
+                  <span className="font-semibold text-gray-800">
+                    Longvity&reg;
+                  </span>{" "}
                   – Ihrem Netzwerk für nachhaltige Lebensqualität im Herzen von
                   Berlin.
                 </p>
@@ -78,7 +80,13 @@ export default function ContactPage() {
                 alt="kibeauty"
                 fill
                 className="object-cover transition-transform duration-700 group-hover:scale-105"
-              />
+              />{" "}
+              <div className="absolute bottom-2 right-4 z-30">
+                <p className="text-[5px] text-white/70 tracking-widest uppercase bg-black/20 px-2 py-1 rounded">
+                  [Headerbild-Kontaktseite-Modell-Beauty-Portrait] –
+                  KI-generiert via Leonardo.ai
+                </p>
+              </div>
               <div className="absolute inset-0 bg-[#7B667E]/10 group-hover:bg-transparent transition-colors duration-500"></div>
             </div>
           </div>
@@ -123,7 +131,10 @@ export default function ContactPage() {
 
           {/* FOOTER INFO */}
           <div className="flex flex-col md:flex-row justify-between items-center text-[10px] uppercase tracking-widest text-gray-400 px-4">
-            <p>© LongvityCenter Berlin – Beatrice Kaiser</p>
+            <p>
+              © Longvity&reg; Beauty by Longvity&reg;Center Berlin – Sabine
+              Kaiser
+            </p>
             <div className="space-x-8 mt-4 md:mt-0">
               <a
                 href="/impressum"

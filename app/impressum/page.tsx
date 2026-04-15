@@ -1,115 +1,130 @@
 export default function ImpressumPage() {
   return (
-    <div className="min-h-screen bg-gray-50 p-6">
-      <main className="max-w-3xl mx-auto bg-white p-8 rounded-lg shadow-md">
-        <h1 className="text-2xl font-bold text-gray-800 mb-6">Impressum</h1>
+    <div className="min-h-screen bg-gray-50 p-6 md:p-12">
+      <main className="max-w-3xl mx-auto bg-white p-8 md:p-10 rounded-xl shadow-sm border border-gray-100">
+        <h1 className="text-3xl font-bold text-gray-900 mb-8 border-b pb-4">
+          Impressum
+        </h1>
 
-        <p className="text-gray-700 mb-6">
-          Gemäß § 5 TMG (Telemediengesetz) informieren wir Sie hier über die
-          verantwortliche Stelle für diese Website. Angaben gemäß § 5 TMG:
-          Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV: Sabine Kaiser
-          UST- ID: DE 243281582 Heilpraktikerin Geiserichstraße 3, 12105 Berlin
-          Telefon: 030/7537100 E-Mail: beacosberlin@gmail.com
-          EU-Streitschlichtung Die Europäische Kommission stellt eine Plattform
-          zur Online-Streitbeilegung (OS) bereit: europa.eu. Unsere
-          E-Mail-Adresse finden Sie unten im Impressum. <br /> Berufsbezeichnung
-          und berufsrechtliche Regelungen Gesetzliche Berufsbezeichnung:
-          Heilpraktikerin (verliehen in der Bundesrepublik Deutschland)
-          Zuständige Aufsichtsbehörde: Gesundheitsamt Berlin [Bezirk, z.B.
-          Tempelhof-Schöneberg] Es gelten folgende berufsrechtliche Regelungen:
-          Gesetz über die berufsmäßige Ausübung der Heilkunde ohne Bestallung
-          (Heilpraktikergesetz) Regelungen einsehbar unter:
-          gesetze-im-internet.de Umsatzsteuer-ID
-          Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz: DE
-          243281582 Angaben gemäß § 5 TMG Sabine Kaiser Longvity Beauty by
-          LongvityCenter Berlin Geiserichstraße 3, 12105 Berlin Kontakt Telefon:
-          030/7537100 E-Mail: beacosberlin@gmail.com
-        </p>
-
-        {/* Hauptinhalte */}
-        <div className="space-y-6">
+        <div className="space-y-8 text-gray-700 leading-relaxed">
+          {/* Anbieterkennzeichnung */}
           <section>
-            <h2 className="text-lg font-semibold text-gray-800 mb-2">
+            <h2 className="text-sm uppercase tracking-wider text-gray-500 font-semibold mb-3">
               Angaben gemäß § 5 TMG
             </h2>
-            <p className="text-gray-700">
+            <div className="text-lg">
+              <p className="font-bold text-gray-900 underline decoration-blue-500 underline-offset-4">
+                Sabine Kaiser
+              </p>
+              <p>Longvity® Beauty by Longvity® Center Berlin</p>
+              <p>Geiserichstraße 3</p>
+              <p>12105 Berlin</p>
+            </div>
+          </section>
+
+          {/* Kontakt */}
+          <section className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div>
+              <h2 className="text-sm uppercase tracking-wider text-gray-500 font-semibold mb-2">
+                Kontakt
+              </h2>
+              <p>Telefon: 030/7537100</p>
+              <p>
+                E-Mail:{" "}
+                <a
+                  href="mailto:beacosberlin@gmail.com"
+                  className="text-blue-600 hover:text-blue-800 transition-colors"
+                >
+                  beacosberlin@gmail.com
+                </a>
+              </p>
+            </div>
+            <div>
+              <h2 className="text-sm uppercase tracking-wider text-gray-500 font-semibold mb-2">
+                Umsatzsteuer-ID
+              </h2>
+              <p className="text-sm">Gemäß § 27 a Umsatzsteuergesetz:</p>
+              <p className="font-mono font-medium">DE 243281582</p>
+            </div>
+          </section>
+
+          {/* Redaktionell Verantwortlich */}
+          <section>
+            <h2 className="text-sm uppercase tracking-wider text-gray-500 font-semibold mb-2">
+              Redaktionell verantwortlich
+            </h2>
+            <p>
               <strong>Sabine Kaiser</strong>
-              <br />
-              Longvity® Beauty by Longvity® Center Berlin
-              <br />
-              Geiserichstraße 3, 12105 Berlin, Deutschland
-              <br />
-              E-Mail:{" "}
-              <a
-                href="mailto:beacosberlin@gmail.com"
-                className="text-blue-600 underline"
-              >
-                beacosberlin@gmail.com
-              </a>
             </p>
+            <p>Geiserichstraße 3, 12105 Berlin</p>
           </section>
 
-          <section>
-            <h2 className="text-lg font-semibold text-gray-800 mb-2">
-              Kontakt
-            </h2>
-            <p className="text-gray-700">
-              E-Mail:{" "}
-              <a
-                href="mailto:beacosberlin@gmail.com"
-                className="text-blue-600 underline"
-              >
-                beacosberlin@gmail.com
-              </a>
-            </p>
-          </section>
+          <hr className="border-gray-100" />
 
-          <section>
-            <h2 className="text-lg font-semibold text-gray-800 mb-2">
-              Haftungsausschluss
-            </h2>
-            <p className="text-gray-700 text-sm">
-              Die Inhalte dieser Website dienen der allgemeinen Information und
-              wurden sorgfältig erstellt. Trotzdem können wir keine Gewähr für
-              Vollständigkeit, Richtigkeit oder Aktualität übernehmen. Als
-              Diensteanbieter sind wir nach § 7 TMG für eigene Inhalte
-              verantwortlich, übernehmen aber keine Haftung für externe Links
-              oder Dienste (z.B. cal.com). Bei Rechtsverletzungen werden wir
-              Inhalte sofort entfernen. Haftungsansprüche sind ausgeschlossen,
-              es sei denn, es liegt Vorsatz oder grobe Fahrlässigkeit vor.
-              <br />
-              <br />
-            </p>
-          </section>
+          {/* Rechtliche Hinweise */}
+          <div className="space-y-6 text-sm text-gray-600">
+            <section>
+              <h2 className="font-semibold text-gray-800 mb-1">
+                EU-Streitschlichtung
+              </h2>
+              <p>
+                Die Europäische Kommission stellt eine Plattform zur
+                Online-Streitbeilegung (OS) bereit:{" "}
+                <a
+                  href="https://europa.eu"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-600"
+                >
+                  https://europa.eu
+                </a>
+                .
+              </p>
+            </section>
 
-          <section>
-            <h2 className="text-lg font-semibold text-gray-800 mb-2">
-              Urheberrecht
-            </h2>
-            <p className="text-gray-700 text-sm">
-              Die durch die Seitenbetreiber erstellten Inhalte unterliegen dem
-              deutschen Urheberrecht. Jegliche Vervielfältigung, Bearbeitung,
-              Verbreitung oder Nutzung außerhalb der Grenzen des Urheberrechts
-              bedarf der schriftlichen Zustimmung der jeweiligen Autoren.
-            </p>
-          </section>
+            <section>
+              <h2 className="font-semibold text-gray-800 mb-1">
+                Verbraucherstreitbeilegung
+              </h2>
+              <p>
+                Wir sind nicht bereit oder verpflichtet, an
+                Streitbeilegungsverfahren vor einer
+                Verbraucherschlichtungsstelle teilzunehmen.
+              </p>
+            </section>
 
-          <section>
-            <h2 className="text-lg font-semibold text-gray-800 mb-2">
-              Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV
-            </h2>
-            <p className="text-gray-700">
-              <strong> Sabine Kaiser </strong>
-              <br />
-              Longvity® Beauty - Longvity® Center Berlin
-              <br />
-              Geiserichstraße 3, 12105 Berlin, Deutschland
-            </p>
-          </section>
+            <section>
+              <h2 className="font-semibold text-gray-800 mb-1">
+                Haftungsausschluss & Urheberrecht
+              </h2>
+              <p className="mb-2">
+                Die Inhalte dieser Website dienen der allgemeinen Information.
+                Als Diensteanbieter sind wir nach § 7 TMG für eigene Inhalte
+                verantwortlich. Für externe Links übernehmen wir keine Haftung.
+              </p>
+              <p>
+                Die erstellten Inhalte auf diesen Seiten unterliegen dem
+                deutschen Urheberrecht. Vervielfältigung oder Nutzung bedürfen
+                der schriftlichen Zustimmung.
+              </p>
+            </section>
+
+            {/* Bildnachweise Platzhalter */}
+            <section className="bg-gray-50 p-4 rounded-md italic">
+              <h2 className="font-semibold text-gray-800 mb-1 not-italic">
+                Bildnachweise:
+              </h2>
+              <p>
+                Eigene Aufnahmen - <br />{" "}
+                [Headerbild-Kontaktseite-Modell-Beauty-Portrait] – Erstellt mit
+                Leonardo.ai (Künstliche Intelligenz) Die gezeigten
+                Personen/Hautdarstellungen sind KI-generierte Symbolbilder
+                (erstellt mit Leonardo.ai) und keine realen Fotos. Kein
+                Urheberrechtsschutz gemäß aktuellem Recht]
+              </p>
+            </section>
+          </div>
         </div>
-
-        {/* Buttons wie im Original */}
-        <div className="flex flex-col sm:flex-row gap-4"></div>
       </main>
     </div>
   );

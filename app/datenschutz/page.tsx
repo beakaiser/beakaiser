@@ -38,148 +38,136 @@ export default function DatenschutzPage() {
             </p>
           </section>
 
-          <section>
-            <h2 className="text-lg font-semibold text-gray-800 mb-2">
+          {/* --- SEKTION 2: TECHNISCHE DATENERFASSUNG --- */}
+          <section className="mb-12">
+            <h2 className="text-xl font-medium text-gray-800 mb-4 border-b border-gray-100 pb-2">
               2. Daten beim Besuch der Website
             </h2>
-            <p className="text-gray-700">
-              <li>
-                Notwendige Cookies/ Speichermedien Nach (Art. 6 Abs. 1 lit. f
-                DSGVO): Zur Speicherung Ihrer Einwilligung nutzen wir den Local
-                Storage Ihres Browsers. Dabei wird ein Wert gespeichert, der
-                dokumentiert, dass Sie den Zugriff auf unser externes
-                Buchungstool erlaubt haben. Dies ist technisch notwendig, um
-                Ihnen den Dienst anzuzeigen. Zudem setzt der externe Anbieter
-                Calendly eigene technisch notwendige Cookies, um den
-                Buchungsprozess zu ermöglichen und die Sicherheit der Anwendung
-                zu gewährleisten.{" "}
-                <li>
-                  {" "}
-                  Widerruf vs. Löschung: Bitte beachten Sie, dass ein Widerruf
-                  der Einwilligung über die Browser-Einstellungen lediglich die
-                  zukünftige Anzeige des Buchungstools verhindert. Bereits
-                  getätigte Terminbuchungen und die damit verbundenen
-                  Datenverarbeitungen zur Termindurchführung bleiben hiervon
-                  unberührt. Möchten Sie eine Löschung Ihrer bereits
-                  übermittelten Buchungsdaten erwirken, kontaktieren Sie uns
-                  bitte direkt gemäß den im Abschnitt 'Ihre Rechte' aufgeführten
-                  Bedingungen. Ein Widerruf der Cookie-Einwilligung erfolgt
-                  durch einen Klick am Seitenende.
-                </li>
-              </li>
-            </p>
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <div className="bg-white p-5 rounded-2xl shadow-sm border border-gray-50">
+                <h3 className="font-semibold text-gray-900 text-sm uppercase tracking-wider mb-2">
+                  Technisch notwendige Speicherung (Art. 6 Abs. 1 lit. f DSGVO)
+                </h3>
+                <p>
+                  Zur Speicherung Ihrer Einwilligung nutzen wir den{" "}
+                  <strong>Local Storage</strong> Ihres Browsers. Hier wird
+                  dokumentiert, dass Sie den Zugriff auf unser externes
+                  Buchungstool erlaubt haben. Zudem setzt{" "}
+                  <strong>Cal.com</strong> eigene technisch notwendige Cookies,
+                  um den Buchungsprozess sicher und funktionsfähig zu
+                  ermöglichen.
+                </p>
+              </div>
+              <div className="bg-[#7B667E]/5 p-5 rounded-2xl border-l-4 border-[#7B667E]">
+                <h3 className="font-semibold text-[#7B667E] text-sm mb-1">
+                  Widerruf & Löschung
+                </h3>
+                <p className="text-sm">
+                  Ein Widerruf über die Browser-Einstellungen verhindert
+                  lediglich die zukünftige Anzeige des Tools. Bereits getätigte
+                  Buchungen bleiben unberührt. Für eine Löschung kontaktieren
+                  Sie uns bitte direkt gemäß dem Abschnitt „Ihre Rechte“.
+                </p>
+              </div>
+            </div>
           </section>
 
-          <section>
-            <h2 className="text-lg font-semibold text-gray-800 mb-2">
-              3. Daten bei Terminbuchung
+          {/* --- SEKTION 3: TERMINBUCHUNG VIA CAL.COM --- */}
+          <section className="mb-12">
+            <h2 className="text-xl font-medium text-gray-800 mb-4 border-b border-gray-100 pb-2">
+              3. Online-Terminbuchung via Cal.com
             </h2>
-            <p className="text-gray-700">
-              Um einen Termin zu buchen, werden Sie auf die Plattform{" "}
-              <strong>cal.com</strong> weitergeleitet – ein Dienst der{" "}
-              <strong>Calendly GmbH</strong>. Dort geben Sie Ihre Daten (Name,
-              E-Mail, Telefon) ein.
-            </p>
-            <ul className="text-gray-700 mt-2 space-y-1 list-disc list-inside">
-              <li>
-                Diese Daten werden direkt bei <strong>cal.com</strong>{" "}
-                verarbeitet. Die Datenübermittlung von cal.com basiert auf Art.
-                6 Abs. 1 lit. b DSGVO (Vertragsabwicklung).
-              </li>
-              <li>
-                cal.com ist DSGVO-konform und verwendet Analysetools wie
-                PostHog. Datenschutz-Hinweis: Für Terminbuchungen nutzen wir
-                cal.com. Bitte beachten Sie die Datenschutzbestimmungen von
-                cal.com: https://cal.com/de/privacy. Im Rahmen der Terminbuchung
-                über cal.com erhalten wir Ihre Kontaktdaten (Name,
-                E-Mail-Adresse) und Termininformationen. Diese Daten werden
-                ausschließlich für die Terminverwaltung und zur Kontaktaufnahme
-                im Rahmen Ihrer Buchung genutzt. Eine Weitergabe an Dritte
-                erfolgt nicht. Nach Ablauf der gesetzlichen Aufbewahrungsfristen
-                werden die Daten gelöscht. Für weitere Fragen zum Datenschutz
-                stehen wir Ihnen gerne zur Verfügung.
-              </li>
-              <li>
-                Lesen Sie die Datenschutzerklärung von cal.com:{" "}
+            <div className="text-gray-700 space-y-4 leading-relaxed">
+              <p>
+                Für unsere Terminverwaltung nutzen wir den Dienst{" "}
+                <strong>Cal.com</strong>
+                (Cal.com, Inc., 155 Wilson St, Brooklyn, NY 11211, USA).
+              </p>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div className="bg-white border border-gray-100 p-5 rounded-2xl shadow-sm">
+                  <span className="block font-bold text-[#7B667E] text-xs uppercase tracking-widest mb-2">
+                    Rechtsgrundlage
+                  </span>
+                  <p className="text-sm">
+                    Die Verarbeitung erfolgt auf Basis von Art. 6 Abs. 1 lit. b
+                    DSGVO (Vertragserfüllung) sowie unserem berechtigten
+                    Interesse (Art. 6 Abs. 1 lit. f DSGVO).
+                  </p>
+                </div>
+                <div className="bg-white border border-gray-100 p-5 rounded-2xl shadow-sm">
+                  <span className="block font-bold text-[#7B667E] text-xs uppercase tracking-widest mb-2">
+                    Drittlandtransfer
+                  </span>
+                  <p className="text-sm">
+                    Wir haben einen Auftragsverarbeitungsvertrag (DPA)
+                    geschlossen. Cal.com nutzt EU-Standardvertragsklauseln für
+                    ein sicheres Datenschutzniveau.
+                  </p>
+                </div>
+              </div>
+              <p className="text-xs text-gray-500 italic pt-2">
+                Details finden Sie direkt in der{" "}
                 <a
-                  href="https://cal.com/privacy"
+                  href="https://cal.com"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-blue-600 underline"
+                  className="text-[#7B667E] underline hover:text-[#5D4B61]"
                 >
-                  cal.com/privacy
+                  Datenschutzerklärung von Cal.com
                 </a>
-              </li>
-            </ul>
+                .
+              </p>
+            </div>
           </section>
 
-          <section>
-            <h2 className="text-lg font-semibold text-gray-800 mb-2">
-              3.1 Einwilligung der Datenverarbeitung bei der Terminbuchung
+          {/* --- SEKTION 4: DATENWEITERGABE --- */}
+          <section className="mb-12">
+            <h2 className="text-xl font-medium text-gray-800 mb-4 border-b border-gray-100 pb-2">
+              4. Umgang mit Buchungsdaten
             </h2>
-            <p className="text-gray-700">gemäß Art. 6 Abs. 1 lit. a DSGVO</p>
-            <ul className="text-gray-700 mt-2 space-y-1 list-disc list-inside">
-              <li>
-                Bestimmte Funktionen unserer Website (z. B. die
-                Online-Terminbuchung) stehen Ihnen erst nach Erteilung einer
-                ausdrücklichen Einwilligung zur Verfügung. Hierzu nutzen wir ein
-                vorgeschaltetes Auswahlbanner. Online-Terminbuchung via Cal.com:
-                Wir bieten Ihnen auf unserer Website die Möglichkeit, Termine
-                online zu buchen. Hierfür nutzen wir den Dienst Cal.com
-                (Betreiber: Cal.com, Inc., 155 Wilson St, Brooklyn, NY 11211,
-                USA). Cal.com . Zweck der Verarbeitung: Die Verarbeitung Ihrer
-                Daten (z. B. Name, E-Mail-Adresse, Telefonnummer, gewünschter
-                Termin und ggf. Anmerkungen) erfolgt ausschließlich zum Zweck
-                der Terminvereinbarung und -verwaltung. Rechtsgrundlage: Die
-                Datenverarbeitung erfolgt auf Grundlage von Art. 6 Abs. 1 lit. b
-                DSGVO (Erfüllung eines Vertrages oder Durchführung
-                vorvertraglicher Maßnahmen) sowie unserem berechtigten Interesse
-                an einer effizienten Terminverwaltung gemäß Art. 6 Abs. 1 lit. f
-                DSGVO. Auftragsverarbeitung: Wir haben mit Cal.com einen Vertrag
-                über die Auftragsverarbeitung (Data Processing Agreement, DPA)
-                abgeschlossen. Damit stellt der Anbieter sicher, dass er die
-                Daten nur nach unseren Weisungen und im Einklang mit der DSGVO
-                verarbeitet. Drittlandtransfer: Da Cal.com seinen Sitz in den
-                USA hat, erfolgt eine Datenübermittlung in ein Drittland.
-                Cal.com nutzt hierfür anerkannte Schutzmechanismen wie die
-                EU-Standardvertragsklauseln, um ein angemessenes
-                Datenschutzniveau zu gewährleisten.
-              </li>
-
-              <li>
-                AV-Vertrag: Wir haben mit dem Anbieter einen
-                Auftragsverarbeitungsvertrag (Data Processing Addendum) gemäß
-                Art. 28 DSGVO geschlossen. Empfänger: Calendly, LLC, 115 E Main
-                St, Ste A1B, Rock Hill, SC 29730, USA. +3, Zweck:
-                Terminvereinbarung auf Kundenwunsch. Rechtsgrundlage: Die über
-                den Banner eingeholte Einwilligung (Art. 6 Abs. 1 lit. a DSGVO).
-                1. Calendly stellt den aktuellen DPA online unter
-                calendly.com/legal/data-processing-addendum zur Verfügung.
-              </li>
-            </ul>
+            <div className="bg-[#FDFCFB] border border-gray-100 rounded-3xl p-6 md:p-8">
+              <ul className="space-y-4">
+                {[
+                  {
+                    t: "Zweckbindung",
+                    d: "Speicherung ausschließlich zur Vorbereitung und Durchführung Ihres Termins.",
+                  },
+                  {
+                    t: "Speicherdauer",
+                    d: "Löschung nach 6 Monaten oder nach Ablauf der gesetzlichen Fristen.",
+                  },
+                  {
+                    t: "Keine Weitergabe",
+                    d: "Ihre Daten werden niemals für Werbezwecke an Dritte verkauft oder weitergegeben.",
+                  },
+                ].map((item, idx) => (
+                  <li key={idx} className="flex items-start">
+                    <span className="text-[#7B667E] mr-4 text-xl">✓</span>
+                    <div>
+                      <span className="font-bold block text-gray-900">
+                        {item.t}
+                      </span>
+                      <span className="text-sm text-gray-600">{item.d}</span>
+                    </div>
+                  </li>
+                ))}
+              </ul>
+            </div>
           </section>
 
-          <section>
-            <h2 className="text-lg font-semibold text-gray-800 mb-2">
-              4. Datenweitergabe
+          {/* --- SEKTION 5: BILDNACHWEISE & KI --- */}
+          <section className="mb-12">
+            <h2 className="text-xl font-medium text-gray-800 mb-4 border-b border-gray-100 pb-2">
+              5. Bildnachweise & Künstliche Intelligenz
             </h2>
-            <p className="text-gray-700">
-              Nach einer Buchung erhalten wir über eine automatisierte E-Mail
-              von cal.com Ihren Namen und Ihre E-Mail-Adresse, um den Termin
-              vorzubereiten. Diese Daten:
+            <p className="text-gray-700 leading-relaxed">
+              Einige visuelle Inhalte dieser Website (insbesondere das
+              [Headerbild-Kontaktseite-Modell-Beauty-Portrait]) wurden mittels
+              künstlicher Intelligenz (<strong>Leonardo.ai</strong>) generiert.
+              Da diese Bilder keinen menschlichen Schöpfer im Sinne des
+              Urheberrechtsgesetzes haben, besteht an ihnen kein Urheberrecht.
+              Die Nutzung erfolgt gemäß den Bedingungen des Anbieters.
             </p>
-            <ul className="text-gray-700 mt-2 space-y-1 list-disc list-inside">
-              <li>speichern wir ausschließlich für die Terminabwicklung</li>
-              <li>
-                löschen wir spätestens 6 Monate nach dem Termin oder sobald der
-                Zweck entfallen ist
-              </li>
-              <li>geben wir nicht an Dritte weiter</li>
-              <li>
-                verwenden wir nicht für Werbezwecke, es sei denn, Sie erteilen
-                ausdrücklich Ihre Einwilligung
-              </li>
-            </ul>
           </section>
 
           <section>

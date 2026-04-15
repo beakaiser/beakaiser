@@ -11,7 +11,7 @@ export default function Footer() {
   return (
     <footer className="bg-gray-100 text-center py-8 mt-10 border-t border-gray-200">
       <p className="text-sm text-gray-600">
-        &copy; 2026 Longvity® Beauty by Longvity®Center
+        &copy; 2026 Longvity&reg; Beauty by Longvity&reg;Center
       </p>
 
       <div className="mt-4 flex flex-col items-center gap-3">

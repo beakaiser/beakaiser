@@ -132,7 +132,7 @@ const Hero10 = () => {
             Wirkstoffen:
             <span className="text-[#7B667E]">
               {" "}
-              Professionell, nachhaltig und voller Energie.
+              Professionell, naturverbunden und voller Energie.
             </span>
             <br />
             Jede Berührung, jede Maske – ein Schritt zur Harmonie.
@@ -187,7 +187,8 @@ const Hero9 = () => {
             <p className="text-2xl md:text-3xl text-gray-800 font-light leading-snug italic">
               "Wir sehen Cellulite nicht als Makel –{" "}
               <br className="hidden md:block" />
-              sondern als Einladung, tiefer zu gehen."
+              sondern als Einladung, tiefer zu gehen. In der Zuwendung zu uns
+              selbst und in der Pflege unseres Körpers. "
             </p>
 
             <p className="text-gray-500 text-lg leading-relaxed font-light max-w-xl mx-auto">
@@ -195,10 +196,10 @@ const Hero9 = () => {
               <span className="text-gray-900 font-normal">
                 asiatisches Cupping und Maderotherapie
               </span>
-              , um Durchblutung, Spannkraft und Energie zu wecken. Nicht nur
-              eine Massage –{" "}
+              , um neue Spannkraft und Energie zu wecken. Nicht nur eine Massage
+              –{" "}
               <em className="text-[#A4B8C4] serif">
-                ein Erwachen für deinen Körper.
+                ein Erwachen für deine Sinne und deinen Körper.
               </em>
             </p>
           </div>

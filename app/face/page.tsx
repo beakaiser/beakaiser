@@ -25,26 +25,26 @@ export default function ContactPage() {
         <section className="bg-white rounded-3xl shadow-xl p-8 md:p-16 mb-16 border border-gray-50">
           <div className="text-center mb-16">
             <span className="text-[#7B667E] font-medium uppercase tracking-widest text-xs">
-              Zellerneuerung
+              Vitalisierung
             </span>
             <h2 className="text-4xl font-serif mt-2 text-gray-800">
               Rejuvenate
             </h2>
             <p className="text-gray-500 mt-4 max-w-2xl mx-auto leading-relaxed">
               Innovative chinesische Gesichtsbehandlungen, die Ihre Haut mit
-              traditionellen Heiltechniken und moderner Pflege verwöhnen.
+              traditionellen Anwendungstechniken und moderner Pflege verwöhnen.
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
             <div className="group border-l-2 border-gray-100 pl-8 hover:border-[#7B667E] transition-all">
               <h3 className="text-xl font-bold text-gray-900 mb-3">
-                Traditionell Verjüngende Massage
+                Traditionell Vitalisierende Massage
               </h3>
               <p className="text-gray-600 mb-6 text-sm leading-relaxed">
-                Qi-Fluss Harmonisierung mit Schönheitswerkzeugen. Inklusive
-                Reinigung und zellerneuernder Pflege für ein strahlendes
-                Ergebnis.
+                Qi-Fluss-Harmonisierung mit Schönheitswerkzeugen. Inklusive
+                Reinigung und regenerationsunterstützende Pflege für ein
+                strahlendes Ergebnis.
               </p>
               <div className="text-[#7B667E] font-semibold tracking-tighter text-lg">
                 90 € | 60 Min.
@@ -56,8 +56,9 @@ export default function ContactPage() {
                 Microneedling
               </h3>
               <p className="text-gray-600 mb-6 text-sm leading-relaxed">
-                Intensive Collagen-Boost-Behandlung durch Mikro-Perforation. Für
-                ein pralles, rosiges Hautbild nach alten Geheimnissen.
+                Intensive Behandlung zur Verfeinerung der Hautstruktur durch
+                Microneedling. Für ein pralles, rosiges Hautbild nach alten
+                Geheimnissen.
               </p>
               <div className="text-[#7B667E] font-semibold tracking-tighter text-lg">
                 139 € | 90 Min.
@@ -74,8 +75,8 @@ export default function ContactPage() {
             </span>
             <h2 className="text-4xl font-serif mt-2 text-gray-800">Relax</h2>
             <p className="text-gray-500 mt-4 max-w-2xl mx-auto leading-relaxed">
-              Sanfte Reinigung und ausgiebige Massage mit Gua Sha für einen
-              harmonischen Lymphfluss nach einem stressigen Tag.
+              Sanfte Reinigung und ausgiebige Massage mit Gua Sha zur Anregung
+              der oberflächlichen Hautzirkulation nach einem stressigen Tag.
             </p>
           </div>
 
@@ -178,7 +179,12 @@ export default function ContactPage() {
                 <p className="text-lg">
                   Lifting, Farbe & Pflege{" "}
                   <span className="text-white/40 mx-2">|</span> 45 €
-                </p>
+                </p>{" "}
+                <br />
+                <h5 className="text-white uppercase text-xs tracking-widest mb-3">
+                  *Alle Preise verstehen sich inklusive der gesetzlichen
+                  Mehrwertsteuer.
+                </h5>
               </div>
             </div>
           </div>

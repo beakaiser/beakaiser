@@ -47,10 +47,10 @@ export default function ContactPage() {
               </div>
               <p className="text-gray-600 leading-relaxed max-w-2xl">
                 Eine exklusive Kombination aus Maderotherapie und
-                Cupping-Massage, die gezielt das Bindegewebe stärkt. Durch den
-                Einsatz von Jadesteinen, speziellen Holzwerkzeugen und
-                durchblutungsfördernen Griffen erreichen wir eine tiefenwirksame
-                Erfrischung und Hautstraffung.
+                Cupping-Massage, die der optischen Festigung des Hautbildes
+                dient. Durch den Einsatz von Jadesteinen, speziellen
+                Holzwerkzeugen und aktivierenden Massagegriffen erreichen wir
+                eine intensiv pflegende Erfrischung und sichtbare Hautstraffung.
               </p>
             </div>
 
@@ -65,10 +65,10 @@ export default function ContactPage() {
                 </span>
               </div>
               <p className="text-gray-600 leading-relaxed max-w-2xl">
-                Erleben Sie die heilende Kraft der Cupping Massage für den
+                Erleben Sie die belebende Kraft der Cupping Massage für den
                 Rücken. Diese Massage ist die ideale Ergänzung zur
-                Cellulite-Behandlung, um den Lymphfluss anzuregen und die Sinne
-                zu entspannen.
+                Cellulite-Behandlung, um die oberflächliche Hautaktivität und
+                die Sinne anzuregen und das Wohlbefinden zu unterstützen.
               </p>
             </div>
 
@@ -83,9 +83,9 @@ export default function ContactPage() {
                 </span>
               </div>
               <p className="text-gray-600 leading-relaxed max-w-2xl">
-                Innovative Wärme- und Massagetherapie. Die integrierten
-                Jadesteine übertragen Infrarotwärme tief in die Muskulatur – für
-                absolute Tiefenentspannung und ganzheitliches Wohlbefinden.
+                Innovative Wärme- und Massageanwendung. Die integrierten
+                Jadesteine übertragen Infrarotwärme für wohltuende Entspannung –
+                für intensive Entspannung und ganzheitliches Wohlbefinden.
               </p>
             </div>
           </div>
