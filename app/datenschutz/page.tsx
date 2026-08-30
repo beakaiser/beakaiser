@@ -31,7 +31,7 @@ export default function DatenschutzPage() {
               E-Mail:{" "}
               <a
                 href="mailto:beacosberlin@gmail.com"
-                className="text-blue-600 underline"
+                className="text-pink-500 underline"
               >
                 beacosberlin@gmail.com
               </a>
@@ -55,7 +55,22 @@ export default function DatenschutzPage() {
                   Buchungstool erlaubt haben. Zudem setzt{" "}
                   <strong>Cal.com</strong> eigene technisch notwendige Cookies,
                   um den Buchungsprozess sicher und funktionsfähig zu
-                  ermöglichen.
+                  ermöglichen. <br /> <br /> Diese Website wird extern gehostet.
+                  Wir nutzen hierzu die Plattform GitHub (GitHub Inc., 88 Colin
+                  P. Kelly Jr. St, San Francisco, CA 94107, USA). Wenn Sie
+                  unsere Website aufrufen, erhebt <strong>GitHub</strong>{" "}
+                  automatisch Informationen, die Ihr Browser übermittelt, in
+                  sogenannten Server-Logfiles. Dazu gehören Ihre IP-Adresse,
+                  Datum und Uhrzeit des Abrufs, Browsertyp, Betriebssystem sowie
+                  die zuvor besuchte Seite (Referrer-URL). Rechtsgrundlage
+                  hierfür ist unser berechtigtes Interesse (Art. 6 Abs. 1 lit. f
+                  DSGVO) an einer stabilen Auslieferung, der Sicherheit und der
+                  fehlerfreien Bereitstellung unserer Website. Die
+                  Datenübermittlung in die USA ist über die
+                  EU-Standardvertragsklauseln sowie das{" "}
+                  <strong>EU-US Data Privacy Framework</strong> (unter dem
+                  GitHub zertifiziert ist) abgesichert. Weitere Informationen
+                  finden Sie in der Datenschutzerklärung von GitHub.
                 </p>
               </div>
               <div className="bg-[#7B667E]/5 p-5 rounded-2xl border-l-4 border-[#7B667E]">
@@ -81,7 +96,8 @@ export default function DatenschutzPage() {
               <p>
                 Für unsere Terminverwaltung nutzen wir den Dienst{" "}
                 <strong>Cal.com</strong>
-                (Cal.com, Inc., 155 Wilson St, Brooklyn, NY 11211, USA).
+                (Cal.com, Inc., 2261 Market St #4382, San Francisco, CA 94114,
+                USA).
               </p>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div className="bg-white border border-gray-100 p-5 rounded-2xl shadow-sm">
@@ -90,8 +106,13 @@ export default function DatenschutzPage() {
                   </span>
                   <p className="text-sm">
                     Die Verarbeitung erfolgt auf Basis von Art. 6 Abs. 1 lit. b
-                    DSGVO (Vertragserfüllung) sowie unserem berechtigten
-                    Interesse (Art. 6 Abs. 1 lit. f DSGVO).
+                    DSGVO (Vertragserfüllung sowie vorvertragliche Maßnahmen, da
+                    das Akzeptieren unserer Ausfallregelung Voraussetzung für
+                    die Buchung ist) sowie unserem berechtigten Interesse (Art.
+                    6 Abs. 1 lit. f DSGVO). Sollten Sie im optionalen
+                    Mitteilungsfeld freiwillig Angaben zu Ihrem Hautzustand,
+                    Allergien oder Gesundheit machen, verarbeiten wir diese auf
+                    Basis Ihrer Einwilligung (Art. 9 Abs. 2 lit. a DSGVO).
                   </p>
                 </div>
                 <div className="bg-white border border-gray-100 p-5 rounded-2xl shadow-sm">
@@ -100,15 +121,17 @@ export default function DatenschutzPage() {
                   </span>
                   <p className="text-sm">
                     Wir haben einen Auftragsverarbeitungsvertrag (DPA)
-                    geschlossen. Cal.com nutzt EU-Standardvertragsklauseln für
-                    ein sicheres Datenschutzniveau.
+                    geschlossen. Cal.com ist unter dem EU-US Data Privacy
+                    Framework (DPF) aktiv zertifiziert und nutzt
+                    EU-Standardvertragsklauseln für ein sicheres
+                    Datenschutzniveau.
                   </p>
                 </div>
               </div>
               <p className="text-xs text-gray-500 italic pt-2">
                 Details finden Sie direkt in der{" "}
                 <a
-                  href="https://cal.com"
+                  href="https://cal.com/de/privacy"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-[#7B667E] underline hover:text-[#5D4B61]"
@@ -130,7 +153,7 @@ export default function DatenschutzPage() {
                 {[
                   {
                     t: "Zweckbindung",
-                    d: "Speicherung ausschließlich zur Vorbereitung und Durchführung Ihres Termins.",
+                    d: "Speicherung ausschließlich zur Vorbereitung und Durchführung Ihres Termins, zur individuellen Abstimmung auf Ihre Hautbedürfnisse sowie zur Abwicklung der Ausfallregelung.",
                   },
                   {
                     t: "Speicherdauer",
@@ -172,7 +195,7 @@ export default function DatenschutzPage() {
 
           <section>
             <h2 className="text-lg font-semibold text-gray-800 mb-2">
-              5. Ihre Rechte (Art. 15–21 DSGVO)
+              6. Ihre Rechte (Art. 15–21 DSGVO)
             </h2>
             <p className="text-gray-700">Sie haben das Recht auf:</p>
             <ul className="text-gray-700 mt-2 space-y-1 list-disc list-inside">
@@ -187,7 +210,7 @@ export default function DatenschutzPage() {
               Zur Ausübung Ihrer Rechte wenden Sie sich bitte per E-Mail an{" "}
               <a
                 href="mailto:hello@tcmglow.berlin"
-                className="text-blue-600 underline"
+                className="text-pink-500 underline"
               >
                 beacosberlin@gmail.com
               </a>
@@ -197,7 +220,7 @@ export default function DatenschutzPage() {
 
           <section>
             <h2 className="text-lg font-semibold text-gray-800 mb-2">
-              6. Sicherheit & Speicherdauer
+              7. Sicherheit & Speicherdauer
             </h2>
             <p className="text-gray-700">
               Wir schützen Ihre Daten durch technische und organisatorische
@@ -210,8 +233,8 @@ export default function DatenschutzPage() {
 
         {/* Hinweis-Box wie im Original */}
         <div className="bg-blue-50 border border-blue-200 p-4 rounded mb-6 mt-8">
-          <h2 className="font-semibold text-blue-800 mb-2">Wichtig</h2>
-          <p className="text-blue-700 text-sm">
+          <h2 className="font-semibold text-pink-500 mb-2">Wichtig</h2>
+          <p className="text-gray-800 text-sm">
             Ihre Daten werden nur so lange gespeichert, wie es für die
             Erbringung der Dienstleistung erforderlich ist. Bei Fragen zum
             Datenschutz erreichen Sie uns jederzeit unter{" "}
@@ -219,7 +242,7 @@ export default function DatenschutzPage() {
               href="mailto:hello@tcmglow.berlin"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-blue-600 underline"
+              className="text-pink-500 underline"
             >
               beacosberlin@gmail.com
             </a>

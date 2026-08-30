@@ -77,7 +77,7 @@ export default function ContactPage() {
             <div className="relative h-[400px] lg:h-auto group overflow-hidden">
               <Image
                 src={`${basePath}beauty_.png`}
-                alt="kibeauty"
+                alt="Nahaufnahme eines Modells mit reiner Haut für Kosmetikbehandlung"
                 fill
                 className="object-cover transition-transform duration-700 group-hover:scale-105"
               />{" "}

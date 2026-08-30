@@ -10,7 +10,7 @@ export default function ImpressumPage() {
           {/* Anbieterkennzeichnung */}
           <section>
             <h2 className="text-sm uppercase tracking-wider text-gray-500 font-semibold mb-3">
-              Angaben gemäß § 5 TMG
+              Angaben gemäß § 5 DDG
             </h2>
             <div className="text-lg">
               <p className="font-bold text-gray-900 underline decoration-blue-500 underline-offset-4">
@@ -63,24 +63,7 @@ export default function ImpressumPage() {
 
           {/* Rechtliche Hinweise */}
           <div className="space-y-6 text-sm text-gray-600">
-            <section>
-              <h2 className="font-semibold text-gray-800 mb-1">
-                EU-Streitschlichtung
-              </h2>
-              <p>
-                Die Europäische Kommission stellt eine Plattform zur
-                Online-Streitbeilegung (OS) bereit:{" "}
-                <a
-                  href="https://europa.eu"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-blue-600"
-                >
-                  https://europa.eu
-                </a>
-                .
-              </p>
-            </section>
+            <section></section>
 
             <section>
               <h2 className="font-semibold text-gray-800 mb-1">
