@@ -80,18 +80,7 @@ const Hero8 = () => {
         {/* Luxuriöser, abgerundeter Rahmen um das Logo mit weichem Schatten */}
         <div className="relative overflow-hidden rounded-3xl shadow-lg group-hover:shadow-2xl transition-all duration-700 ease-in-out border border-white/10 bg-white/[0.02] backdrop-blur-sm">
 
-          <img
-            src="/bea-beauty-logo.jpeg"
-            alt="Longvity Beauty Logo Berlin Gesichtsbehandlung"
-            className="w-full h-auto object-contain mx-auto transition-all duration-700 ease-in-out group-hover:scale-[1.01]"
-          />
 
-          {/* --- SPECIAL EFFECT: DER GLANZ-EFFEKT (SHINE OVERLAY) --- */}
-          {/* Dieser Lichtstreif schießt beim Hover elegant über das Logo */}
-          <div className="absolute inset-0 w-full h-full bg-gradient-to-r from-transparent via-white/30 to-transparent -translate-x-full group-hover:animate-[shine_1s_ease-in-out] pointer-events-none z-10"></div>
-
-          {/* Dezenter Abdunklungs-Filter beim Drüberfahren für den Premium-Effekt */}
-          <div className="absolute inset-0 bg-black/0 group-hover:bg-black/5 transition-colors duration-500"></div>
 
         </div>
 
