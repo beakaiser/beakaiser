@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import ImageSlideshow from './ImageSlideshow';
 
 const CookieBanner = () => {
   const [status, setStatus] = useState("loading");
